@@ -1,0 +1,7 @@
+# sidebar.rc - Sidebar configuration
+
+# set sidebar_visible = yes
+set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
+set mail_check_stats = yes
+
+# vim: syntax=muttrc

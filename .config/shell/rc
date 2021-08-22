@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# add .local/bin to path
+export PATH="$PATH:~/.local/bin"
+
+# aliases
+#   pacman aliases
+alias "exercise"="sudo paccache -r && sudo paccache -ruk0 && rm -rf ~/.cache"
+alias "orphanage"="sudo pacman -Qtdq | sudo pacman -Rns -"
+alias "relax"="sudo pacman -Syyu"
+alias "yeet"="sudo pacman -R"
+alias "yoink"="sudo pacman -S"
+#   phone mount aliases
+alias "phonemnt"="simple-mtpfs --device 1"
+alias "phoneunmnt"="fusermount -u"
+#   steamvr alias
+alias "fixvr"="sudo setcap CAP_SYS_NICE+ep ~/.local/share/Steam/steamapps/common/SteamVR/bin/linux64/vrcompositor-launcher"
+#   Replacement aliases
+alias "abook"="abook --datafile \"$XDG_DATA_HOME/abook/addressbook\""
+alias "grep"="grep --color"
+alias "ls"="ls --color=auto"
+alias "mbsync"="mbsync -c \"$XDG_CONFIG_HOME/isync/mbsyncrc\""
+alias "monero-wallet-cli"="monero-wallet-cli --log-file \"$XDG_DATA_HOME/monero/monero-wallet-cli.log\""
+alias "startx"="startx $XINITRC"
+
+# prompt
+export PS1="\[\e[32m\][\[\e[m\]\[\e[1;32m\]\u\[\e[m\]\[\e[1;32m\]@\[\e[m\]\[\e[1;32m\]\h\[\e[m\] \[\e[1m\]\w\[\e[0;32m\]]\[\e[m\] "

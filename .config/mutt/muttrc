@@ -1,0 +1,44 @@
+# muttrc - NeoMutt configuration
+
+set editor = "nvim"
+
+set sort = "threads"
+set sort_aux = "reverse-date"
+set sort_browser = "reverse-date"
+
+set date_format = "%m/%d %I:%M%p"
+
+set query_command = "abook --datafile $XDG_DATA_HOME/abook/addressbook --mutt-query '%s'"
+
+set mail_check = 10
+set timeout = 5
+
+# IMAP
+source ~/.config/mutt/imap.rc
+
+# SMTP
+source ~/.config/mutt/smtp.rc
+
+# Inboxes
+source ~/.config/mutt/inboxes.rc
+
+# GPG
+source ~/.config/mutt/gpg.rc
+
+# Sidebar
+source ~/.config/mutt/sidebar.rc
+
+# Color
+source ~/.config/mutt/colors.rc
+
+# Macros
+macro index,pager a "<pipe-message>abook --datafile $XDG_DATA_HOME/abook/addressbook --add-email-quiet<return>" "Add this sender to Abook"
+
+# Bindings
+source ~/.config/mutt/bindings.rc
+
+# Other
+alternative_order text/plain text/html *
+auto_view text/html
+set auto_tag = yes
+set mailcap_path = ~/.config/mutt/mailcap

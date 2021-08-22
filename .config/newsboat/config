@@ -1,0 +1,17 @@
+# Main configuration
+auto-reload no
+reload-threads 100
+reload-time 10
+browser "brave %u"
+
+# Coloring
+color background color2 black
+color info color10 color22 bold
+color listfocus color10 color22
+color listfocus_unread color10 color22 bold
+highlight feedlist "---.*---" color22 default bold
+highlight feedlist ".*0/0.." default default invis
+
+# Macros
+macro , open-in-browser
+macro m set browser "mpv %u" ; open-in-browser ; set browser "lynx %u"

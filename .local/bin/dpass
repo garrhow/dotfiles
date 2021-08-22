@@ -1,0 +1,3 @@
+#!/bin/sh
+password=$(pass | awk '{print $2}' | sed '1d' | dmenu -i -p "Password:")
+[ -n "$password" ] && pass show -c "$password"

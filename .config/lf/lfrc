@@ -1,0 +1,6 @@
+# General settings
+set shell bash
+
+# Bindings
+map d delete
+map <enter> shell

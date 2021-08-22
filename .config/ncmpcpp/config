@@ -1,0 +1,13 @@
+# Appearance
+progressbar_look = "─>"
+
+# Directories
+ncmpcpp_directory = "~/.config/ncmpcpp"
+lyrics_directory = "~/.local/share/lyrics"
+mpd_music_dir = "/home/garrett/Music"
+
+# Other
+external_editor = nvim
+startup_screen = "media_library"
+
+# vim: syntax=conf

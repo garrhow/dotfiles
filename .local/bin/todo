@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ "$1" = "-e" -o "$1" = "--edit" ]; then
+	$EDITOR $XDG_DATA_HOME/todolist
+else
+	echo "Todo list:"
+	cat $XDG_DATA_HOME/todolist
+fi

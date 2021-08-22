@@ -1,0 +1,4 @@
+#!/bin/sh
+
+gif=$HOME/.cache/weather.png
+rm -rf $gif && curl https://s.w-x.co/staticmaps/wu/wu/wxtype1200_cur/uslit/animate.png -o $gif && mpv $gif --loop-file inf
