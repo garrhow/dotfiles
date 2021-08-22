@@ -28,4 +28,4 @@ These dotfiles were intended for use on the Arch Linux distribution and with suc
 - [slstatus](https://tools.suckless.org/slstatus/) (status bar)
 - [st](https://st.suckless.org/) (terminal emulator)
 
-The scripts found in `~/.local/bin/` are POSIX-compliant and will work with most shells and sets of UNIX utilities, e.g., GNU coreutils, Plan 9, BSD, etc.
+The scripts found in `~/.local/bin/` are POSIX-compliant and will work with most shells and sets of UNIX utilities, e.g., GNU coreutils, Plan 9, \*BSD, etc.
