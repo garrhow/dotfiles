@@ -21,7 +21,7 @@ This repository includes a `Makefile` with commands for easing the use of these 
 
 ## Acknowledgements
 
-These dotfiles were intended for use on the Arch Linux distribution and with suckless programs such as:
+These dotfiles were intended for use with the Arch Linux distribution and suckless programs such as:
 
 - [dwm](https://dwm.suckless.org/) (window manager)
 - [dmenu](https://tools.suckless.org/dmenu/) (menu bar)
