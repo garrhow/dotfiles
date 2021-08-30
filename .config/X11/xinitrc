@@ -5,7 +5,7 @@ resources=$XDG_CONFIG_HOME/X11/xresources
 wallpaper=$XDG_DATA_HOME/wallpaper
 
 # Set display configuration
-xrandr --output HDMI-1 --primary --mode 1920x1080 --rotate normal --output DVI-D-1 --mode 1920x1080 --rotate normal --right-of HDMI-0 --rate 144 &
+xrandr --output HDMI-1 --primary --mode 1920x1080 --rotate normal --output DVI-D-1 --mode 1920x1080 --rotate normal --right-of HDMI-1 --rate 144 &
 
 # Set background
 xwallpaper --center $wallpaper &
