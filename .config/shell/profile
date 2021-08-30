@@ -34,4 +34,6 @@ export PASSWORD_STORE_DIR="$XDG_DATA_HOME/password-store"
 source "$XDG_CONFIG_HOME/shell/rc"
 
 # open the window manager on login
-[ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ] && startx
+# if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
+#	  exec startx
+# fi
