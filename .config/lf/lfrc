@@ -1,5 +1,9 @@
 # General settings
 set shell bash
+set hidden true
+set drawbox true
+set preview true
+# set icons true
 
 # Bindings
 map d delete
