@@ -1,16 +1,24 @@
 # Garrett Howard's dotfiles
 
-These are the dotfiles I use for use with my favorite software.
+These are the dotfiles I use with my favorite software. Feel free to modify or dedistribute these scripts and configurations as you wish!
 
 - Settings for:
-	- [bash](https://www.gnu.org/software/bash/) (shell)
-	- [nvim](https://neovim.io/) (text editor)
-	- [neomutt](https://neomutt.org/) (email)
-	- [mpd](https://www.musicpd.org/)/[ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) (music)
-	- [xorg](https://www.x.org) (x window system)
-	- [zathura](https://pwmt.org/projects/zathura/) (document viewer)
-	- [picom](https://github.com/yshui/picom) (compositor)
-	- [dunst](https://dunst-project.org/) (notifications)
+	- basic utilities
+		- [bash](https://www.gnu.org/software/bash/) (Unix shell)
+		- [nvim](https://neovim.io/) (text editor)
+	- desktop environment
+		- [dunst](https://dunst-project.org/) (notification daemon)
+		- [flameshot](https://flameshot.org/) (screenshot utility)
+		- [picom](https://github.com/yshui/picom/) (compositor)
+		- [redshift](http://jonls.dk/redshift/) (screen temperature)
+		- [xorg](https://www.x.org) (x window system)
+		- [xwallpaper](https://github.com/stoeckmann/xwallpaper/) (wallpaper setter)
+	- personal software
+		- [lf](https://github.com/gokcehan/lf/) (file manager)
+		- [mpd](https://www.musicpd.org/)/[ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) (music)
+		- [neomutt](https://neomutt.org/) (email)
+		- [newsboat](https://newsboat.org/) (rss reader)
+		- [zathura](https://pwmt.org/projects/zathura/) (document viewer)
 - Scripts in `~/.local/bin/`
 
 ## Usage
