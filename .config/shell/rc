@@ -4,18 +4,9 @@
 export PATH="$PATH:~/.local/bin"
 
 # aliases
-#   pacman aliases
-alias "exercise"="sudo paccache -r && sudo paccache -ruk0 && rm -rf ~/.cache"
-alias "orphanage"="sudo pacman -Qtdq | sudo pacman -Rns -"
-alias "relax"="sudo pacman -Syyu"
-alias "yeet"="sudo pacman -R"
-alias "yoink"="sudo pacman -S"
-#   phone mount aliases
-alias "phonemnt"="simple-mtpfs --device 1"
-alias "phoneunmnt"="fusermount -u"
-#   steamvr alias
-alias "fixvr"="sudo setcap CAP_SYS_NICE+ep ~/.local/share/Steam/steamapps/common/SteamVR/bin/linux64/vrcompositor-launcher"
-#   Replacement aliases
+### sudo -> doas
+alias "sudo"="doas"
+### replacement aliases
 alias "abook"="abook --datafile \"$XDG_DATA_HOME/abook/addressbook\""
 alias "grep"="grep --color"
 alias "ls"="ls --color=auto"
