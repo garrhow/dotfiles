@@ -14,6 +14,7 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 		- [xorg](https://www.x.org) (x window system)
 		- [xwallpaper](https://github.com/stoeckmann/xwallpaper/) (wallpaper setter)
 	- personal software
+		- [abook](https://abook.sourceforge.io) (address book)
 		- [lf](https://github.com/gokcehan/lf/) (file manager)
 		- [mpd](https://www.musicpd.org/)/[ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) (music)
 		- [neomutt](https://neomutt.org/) (email)
