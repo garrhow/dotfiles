@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Chat
+Exec=/usr/local/bin/st -e weechat %u

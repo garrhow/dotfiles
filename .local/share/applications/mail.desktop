@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Mail client
+Exec=/usr/local/bin/st -e neomutt %u

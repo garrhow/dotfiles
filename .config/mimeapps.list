@@ -1,0 +1,14 @@
+[Default Applications]
+
+text/x-shellscript=text.desktop;
+x-scheme-handler/mailto=mail.desktop;
+x-scheme-handler/irc=chat.desktop;
+x-scheme-handler/xmpp=chat.desktop;
+text/plain=text.desktop;
+application/postscript=pdf.desktop;
+application/pdf=pdf.desktop;
+image/png=img.desktop;
+image/jpeg=img.desktop;
+image/gif=img.desktop;
+video/x-matroska=video.desktop
+inode/directory=file.desktop
