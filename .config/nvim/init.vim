@@ -14,6 +14,7 @@ Plug 'preservim/nerdtree'
 Plug 'bling/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
+Plug 'vim-scripts/vim-startify'
 call plug#end()
 
 set title
@@ -64,6 +65,13 @@ set noshowcmd
 " Run xrdb whenever Xdefaults or Xresources are updated.
 	autocmd BufRead,BufNewFile Xresources,Xdefaults,xresources,xdefaults set filetype=xdefaults
 	autocmd BufWritePost Xresources,Xdefaults,xresources,xdefaults !xrdb %
+" Configures vim-startify
+	let g:startify_session_dir = '~/.local/share/nvim/session'
+	let g:startify_lists = ['files', 'dir', 'bookmarks']
+	let g:startify_bookmarks = ['~/.config/nvim/init.vim']
+	let g:startify_files_number = 5
+	let g:startify_change_to_dir = 1
+	autocmd VimEnter * Startify
 
 " Turns off highlighting on the bits of code that are changed, so the line that is changed is highlighted but the actual text that has changed stands out on the line and is readable.
 if &diff
