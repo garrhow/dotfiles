@@ -15,6 +15,7 @@ Plug 'bling/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
 Plug 'vim-scripts/vim-startify'
+Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
 set title
@@ -37,6 +38,7 @@ set noshowcmd
 	set number
 	set relativenumber
 	set showmatch
+	colorscheme nord
 " Disables automatic commenting on newline:
 	autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 " Perform dot commands over visual blocks:
@@ -71,7 +73,7 @@ set noshowcmd
 	let g:startify_bookmarks = ['~/.config/nvim/init.vim']
 	let g:startify_files_number = 5
 	let g:startify_change_to_dir = 1
-	autocmd VimEnter * Startify
+	" autocmd VimEnter * Startify
 
 " Turns off highlighting on the bits of code that are changed, so the line that is changed is highlighted but the actual text that has changed stands out on the line and is readable.
 if &diff
