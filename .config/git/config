@@ -1,0 +1,6 @@
+[user]
+	email = garrett@mersh.com
+	name = Garrett Howard
+
+[pull]
+	rebase = false
