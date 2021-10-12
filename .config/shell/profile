@@ -20,13 +20,14 @@ export XDG_CACHE_HOME="$HOME/.cache"
 
 # Xorg
 export XINITRC="$XDG_CONFIG_HOME/X11/xinitrc"
-export XAUTHORITY="$XDG_RUNTIME_DIR/xauthority"
+export XAUTHORITY="$XDG_CONFIG_HOME/X11/xauthority"
 
 # Other
 # export ALSA_CONFIG_PATH="$XDG_CONFIG_HOME/alsa/asoundrc"
 export GNUPGHOME="$XDG_CONFIG_HOME/gnupg"
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc-2.0"
 export HISTFILE="$XDG_CONFIG_HOME/shell/history"
+export LADSPA_PATH="$XDG_DATA_HOME/ladspa"
 export LESSHSTFILE="-"
 export PASSWORD_STORE_DIR="$XDG_DATA_HOME/password-store"
 
