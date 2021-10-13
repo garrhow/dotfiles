@@ -1,3 +1,6 @@
+[core]
+	pager = cat
+
 [user]
 	email = garrett@mersh.com
 	name = Garrett Howard
