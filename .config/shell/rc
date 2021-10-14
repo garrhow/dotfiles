@@ -4,8 +4,6 @@
 export PATH="$PATH:~/.local/bin"
 
 # aliases
-### sudo -> doas
-alias "sudo"="doas"
 ### replacement aliases
 alias "abook"="abook --datafile \"$XDG_DATA_HOME/abook/addressbook\""
 alias "grep"="grep --color"
