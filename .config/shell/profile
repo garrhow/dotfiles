@@ -11,7 +11,7 @@
 # Default programs
 export EDITOR="nvim"
 export TERMINAL="st"
-export BROWSER="firefox"
+export BROWSER="dillo"
 
 # XDG
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -27,7 +27,6 @@ export XAUTHORITY="$XDG_CONFIG_HOME/X11/xauthority"
 export GNUPGHOME="$XDG_CONFIG_HOME/gnupg"
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc-2.0"
 export HISTFILE="$XDG_CONFIG_HOME/shell/history"
-export LADSPA_PATH="$XDG_DATA_HOME/ladspa"
 export LESSHSTFILE="-"
 export PASSWORD_STORE_DIR="$XDG_DATA_HOME/password-store"
 
