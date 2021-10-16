@@ -29,4 +29,10 @@ macro index,pager a "<pipe-message>abook --datafile $XDG_DATA_HOME/abook/address
 alternative_order text/plain text/html *
 auto_view text/html
 set auto_tag = yes
-set mailcap_path = ~/.config/mutt/mailcap
+set certificate_file = "~/.config/mutt/certificates"
+set header_cache = "~/.config/mutt/cache/headers"
+set mailcap_path = "~/.config/mutt/mailcap"
+set message_cachedir = "~/.config/mutt/cache/bodies"
+# set signature = "~/.config/mutt/signature"
+# set ssl_forcetls = yes
+set ssl_starttls = yes

@@ -1,0 +1,9 @@
+# smtp.rc - SMTP configuration
+
+set smtp_url = "smtp://[email address]@[mailserver]:587"
+set smtp_pass = "[email password]"
+
+set from = "[email address]"
+set realname = "[real name]"
+
+# vim: syntax=muttrc
