@@ -6,4 +6,6 @@ set record = "+Sent"
 set trash = "+Junk"
 set postponed = "+Drafts"
 
+mailboxes = +Inbox +Sent +Drafts +Junk
+
 # vim: syntax=muttrc

@@ -1,7 +1,14 @@
 # sidebar.rc - Sidebar configuration
 
-# set sidebar_visible = yes
-set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
+set sidebar_visible = yes
+
+set sidebar_divider_char = ' '
+set sidebar_format = "%D%?F? [%F]?%* %?N?%N/?%S"
+set sidebar_new_mail_only = no
+set sidebar_non_empty_mailbox_only = no
+set sidebar_short_path = no
+set sidebar_width = 20
+
 set mail_check_stats = yes
 
 # vim: syntax=muttrc

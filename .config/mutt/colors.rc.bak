@@ -1,0 +1,25 @@
+# colors.rc - Color configuration
+
+# color <name> fg bg
+
+color hdrdefault brightblue black
+color quoted brightblue black
+color signature brightblue black
+color attachment brightblue black
+color prompt brightcyan black
+color message brightblue black
+color error brightred black
+color indicator bold black white
+color status bold white blue
+color tree white black
+color normal white black
+color markers cyan black
+color search white black
+color tilde brightmagenta black
+color index green black ~F
+color index green black "~N|~O"
+
+color body brightwhite black '\*+[^*]+\*+'
+color body brightwhite black '_+[^_]+_+'
+
+# vim: syntax=muttrc
