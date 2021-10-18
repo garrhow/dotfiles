@@ -7,7 +7,6 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 		- [bash](https://www.gnu.org/software/bash/) (Unix shell)
 		- [nvim](https://neovim.io/) (text editor)
 	- desktop environment
-		- [dunst](https://dunst-project.org/) (notification daemon)
 		- [flameshot](https://flameshot.org/) (screenshot utility)
 		- [picom](https://github.com/yshui/picom/) (compositor)
 		- [redshift](http://jonls.dk/redshift/) (screen temperature)
@@ -19,7 +18,7 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 		- [mpd](https://www.musicpd.org/)/[ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) (music)
 		- [neomutt](https://neomutt.org/) (email)
 		- [newsboat](https://newsboat.org/) (rss reader)
-		- [zathura](https://pwmt.org/projects/zathura/) (document viewer)
+		- [mupdf](https://mupdf.com) (document viewer)
 - Scripts in `~/.local/bin/`
 
 ## Usage
