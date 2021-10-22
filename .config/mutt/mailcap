@@ -5,7 +5,7 @@ image/*; sxiv %s ;
 image/*; chafa %s;
 video/*; mpv --quiet %s ; copiousoutput
 audio/*; mpv %s ;
-application/pdf; zathura %s ;
+application/pdf; mupdf %s ;
 application/pgp-encrypted; gpg -d '%s'; copiousoutput;
 application/pgp-signature; $EDITOR %s ;
 application/pgp-keys; gpg --import '%s'; copiousoutput;
