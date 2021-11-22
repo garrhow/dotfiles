@@ -19,5 +19,8 @@ picom &
 # Start status bar
 slstatus &
 
+# Start pipewire
+gentoo-pipewire-launcher &
+
 # Execute dwm
 exec dwm
