@@ -8,10 +8,10 @@ wallpaper=$XDG_DATA_HOME/wallpaper
 xwallpaper --center $wallpaper &
 
 # Load Xresources
-xrdb $resources
+xrdb $resources &
 
 # Load Xmodmap
-xmodmap $modmap
+xmodmap $modmap &
 
 # Start picom
 picom &
@@ -21,6 +21,9 @@ slstatus &
 
 # Start pipewire
 gentoo-pipewire-launcher &
+
+# Start x11vnc
+x11vnc -display :0 -forever -nomodtweak &
 
 # Execute dwm
 exec dwm
