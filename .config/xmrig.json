@@ -1,9 +1,8 @@
 {
     "autosave": true,
-    "donate-level": 5,
     "cpu": true,
     "opencl": false,
-    "cuda": true,
+    "cuda": false,
     "pools": [
         {
             "coin": "monero",
