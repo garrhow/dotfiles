@@ -15,7 +15,6 @@ Plug 'bling/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
 Plug 'vim-scripts/vim-startify'
-Plug 'xuhdev/vim-latex-live-preview'
 Plug 'arcticicestudio/nord-vim'
 call plug#end()
 

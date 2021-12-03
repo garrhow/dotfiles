@@ -19,6 +19,9 @@ picom &
 # Start status bar
 slstatus &
 
+# Start notification daemon
+dunst &
+
 # Start pipewire
 gentoo-pipewire-launcher &
 
