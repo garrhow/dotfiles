@@ -1,0 +1,19 @@
+{
+    "autosave": true,
+    "donate-level": 5,
+    "cpu": true,
+    "opencl": false,
+    "cuda": true,
+    "pools": [
+        {
+            "coin": "monero",
+            "algo": null,
+            "url": "cryptonote.social:5555",
+            "user": "45p23Gh9DEFPVgYXmh8S37HQZeiJ2WE5Lji8FNztNmFC4SRVGoowrKN1ssZZxzstjURZ9PsvJNNroF8JKEtiV1GTQHLChoD.garretthoward",
+            "pass": "x",
+            "tls": false,
+            "keepalive": true,
+            "nicehash": false
+        }
+    ]
+}
