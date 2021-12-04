@@ -9,7 +9,7 @@
             "algo": null,
             "url": "cryptonote.social:5555",
             "user": "45p23Gh9DEFPVgYXmh8S37HQZeiJ2WE5Lji8FNztNmFC4SRVGoowrKN1ssZZxzstjURZ9PsvJNNroF8JKEtiV1GTQHLChoD.garretthoward",
-            "pass": "x",
+            "pass": "start_diff=50000;payment_scheme=pprop;email=garrett@mersh.com;donate=2",
             "tls": false,
             "keepalive": true,
             "nicehash": false
