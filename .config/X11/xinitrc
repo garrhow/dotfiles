@@ -22,8 +22,5 @@ slstatus &
 # Start notification daemon
 dunst &
 
-# Start pipewire
-gentoo-pipewire-launcher &
-
 # Execute dwm
-exec dwm
+exec dbus-launch dwm
