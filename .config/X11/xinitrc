@@ -5,7 +5,7 @@ resources=$XDG_CONFIG_HOME/X11/xresources
 wallpaper=$XDG_DATA_HOME/wallpaper
 
 # Set background
-xsetroot -solid "#2e3340"
+xwallpaper --center $wallpaper &
 
 # Load Xresources
 xrdb $resources &
