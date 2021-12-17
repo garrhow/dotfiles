@@ -1,5 +1,5 @@
 # Appearance
-progressbar_look = "─>"
+progressbar_look = "=>"
 colors_enabled = yes
 empty_tag_color = cyan
 header_window_color = white
