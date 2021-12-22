@@ -4,23 +4,10 @@ modmap=$XDG_CONFIG_HOME/X11/xmodmap
 resources=$XDG_CONFIG_HOME/X11/xresources
 wallpaper=$XDG_DATA_HOME/wallpaper
 
-# Set background
-xwallpaper --center $wallpaper &
-
-# Load Xresources
-xrdb $resources &
-
-# Load Xmodmap
-xmodmap $modmap &
-
-# Start picom
-picom &
-
-# Start status bar
-slstatus &
-
-# Start notification daemon
-dunst &
-
-# Execute dwm
-exec dbus-launch dwm
+xwallpaper --center $wallpaper # Set background
+xrdb $resources # Load Xresources
+xmodmap $modmap # Load Xmodmap
+picom & # Start picom
+slstatus & # Start status bar
+dunst & # Start notification daemon
+exec dbus-launch dwm # Launch dwm
