@@ -1,13 +1,39 @@
 #!/bin/sh
 
-modmap=$XDG_CONFIG_HOME/X11/xmodmap
-resources=$XDG_CONFIG_HOME/X11/xresources
+sysmodmap=/etc/X11/xinit/.Xmodmap
+sysresources=/etc/X11/xinit/.Xresources
+usermodmap=$XDG_CONFIG_HOME/X11/xmodmap
+userresources=$XDG_CONFIG_HOME/X11/xresources
 wallpaper=$XDG_DATA_HOME/wallpaper
 
-xwallpaper --center $wallpaper # Set background
-xrdb $resources # Load Xresources
-xmodmap $modmap # Load Xmodmap
+if [ -f $sysmodmap ]; then
+	xmodmap $sysmodmap
+fi
+
+if [ -f $sysresources ]; then
+	xrdb -merge $sysresources
+fi
+
+if [ -f "$usermodmap" ]; then
+	xmodmap "$usermodmap"
+fi
+
+if [ -f "$userresources" ]; then
+	xrdb -merge "$userresources"
+fi
+
+if [ -f "$wallpaper" ]; then
+	xwallpaper --center $wallpaper
+fi
+
+if [ -d /etc/X11/xinit/xinitrc.d ] ; then
+ for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
+  [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
+
 picom & # Start picom
 slstatus & # Start status bar
 dunst & # Start notification daemon
-exec dbus-launch dwm # Launch dwm
+exec dwm # Launch dwm
