@@ -29,7 +29,13 @@
     # the top and down respectively.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "300x30-20+40"
+    width = 300
+
+    # height = 0
+
+    origin = top-right
+
+    offset = 20x40
 
     # Turn on the progess bar
     progress_bar = true
@@ -63,7 +69,7 @@
     # The height of the entire notification.  If the height is smaller
     # than the font height and padding combined, it will be raised
     # to the font height and padding.
-    notification_height = 50
+    # notification_height = 50
 
     # Draw a line of "separator_height" pixel height between two
     # notifications.
@@ -71,10 +77,10 @@
     separator_height = 4
 
     # Padding between text and separator.
-    padding = 12
+    padding = 16
 
     # Horizontal padding.
-    horizontal_padding = 8
+    horizontal_padding = 12
 
     # Padding between text and icon.
     text_icon_padding = 0
@@ -106,7 +112,7 @@
 
     ### Text ###
 
-    font = Liberation Sans 10
+    font = monospace 10
 
     # The spacing between lines.  If the height is smaller than the
     # font height, it will get raised to the font height.
@@ -226,7 +232,7 @@
     # Print a notification on startup.
     # This is mainly for error detection, since dbus (re-)starts dunst
     # automatically after a crash.
-    startup_notification = false
+    # startup_notification = false
 
     # Manage dunst's desire for talking
     # Can be one of the following values:
@@ -235,7 +241,7 @@
     #  mesg: Important Messages
     #  info: all unimportant stuff
     # debug: all less than unimportant stuff
-    verbosity = mesg
+    # verbosity = mesg
 
     # Define the corner radius of the notification window
     # in pixel size. If the radius is 0, you have no rounded
