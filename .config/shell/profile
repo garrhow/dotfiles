@@ -11,7 +11,7 @@
 # Default programs
 export EDITOR="nvim"
 export TERMINAL="st"
-export BROWSER="brave-bin"
+export BROWSER="brave"
 
 # XDG
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -37,5 +37,5 @@ source "$XDG_CONFIG_HOME/shell/rc"
 
 # open the window manager on login
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-	  exec startx
+	  startx
 fi
