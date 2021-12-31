@@ -11,6 +11,7 @@ alias "ls"="ls --color=auto"
 alias "mbsync"="mbsync -c \"$XDG_CONFIG_HOME/isync/mbsyncrc\""
 alias "monero-wallet-cli"="monero-wallet-cli --log-file \"$XDG_DATA_HOME/monero/monero-wallet-cli.log\""
 alias "orphanage"="pacman -Qtdq | sudo pacman -Rns -"
+alias "relax"="sudo pacman -Syyuu"
 alias "startx"="startx $XINITRC"
 
 # prompt
