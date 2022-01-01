@@ -6,13 +6,12 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 	- basic utilities
 		- [bash](https://www.gnu.org/software/bash/) (Unix shell)
 		- [nvim](https://neovim.io/) (text editor)
-		- [brave-bin](https://brave.com/) (web browser)
+		- [brave](https://brave.com/) (web browser)
 	- desktop environment
 		- [dunst](https://dunst-project.org/) (notification daemon)
 		- [flameshot](https://flameshot.org/) (screenshot utility)
 		- [picom](https://github.com/yshui/picom/) (compositor)
-		- [redshift](http://jonls.dk/redshift/) (screen temperature)
-		- [xorg](https://www.x.org) (x window system)
+		- [xorg](https://www.x.org) (x window system implementation)
 		- [xwallpaper](https://github.com/stoeckmann/xwallpaper/) (wallpaper setter)
 	- personal software
 		- [abook](https://abook.sourceforge.io) (address book)
