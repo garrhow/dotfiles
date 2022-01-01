@@ -21,7 +21,7 @@ active_window_border = blue
 # Directories
 ncmpcpp_directory = "~/.config/ncmpcpp"
 lyrics_directory = "~/.local/share/lyrics"
-mpd_music_dir = "/home/garrett/Music"
+mpd_music_dir = "~/.local/share/music"
 
 # Other
 external_editor = nvim
