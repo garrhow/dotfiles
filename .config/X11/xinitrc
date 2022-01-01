@@ -39,7 +39,6 @@ fi
 
 picom & # Start picom
 slstatus & # Start status bar
-dunst & # Start notification daemon
 exec dwm; # Launch dwm
 
 if [ -f /usr/bin/prime-switch ]; then
