@@ -32,9 +32,9 @@ This repository includes a `Makefile` with commands for easing the use of these 
 
 These dotfiles were intended for use with a GNU/Linux distribution (Arch Linux, Debian, Gentoo, etc.) and suckless programs such as:
 
-- [dwm](https://dwm.suckless.org/) (window manager)
 - [dmenu](https://tools.suckless.org/dmenu/) (menu bar)
-- [slstatus](https://tools.suckless.org/slstatus/) (status bar)
+- [dwm](https://dwm.suckless.org/) (window manager)
+- [dwmblocks](https://github.com/torrinfail/dwmblocks) (status bar)
 - [st](https://st.suckless.org/) (terminal emulator)
 
 The scripts found in `~/.local/bin/` are POSIX-compliant and will work with most shells and sets of UNIX utilities, e.g., GNU coreutils, Plan 9, \*BSD, etc.
