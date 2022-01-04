@@ -2,15 +2,15 @@
 auto-reload no
 reload-threads 100
 reload-time 10
-browser "brave %u"
+browser "$BROWSER %u"
 
 # Coloring
-color background color2 black
-color info color10 color22 bold
-color listfocus color10 color22
-color listfocus_unread color10 color22 bold
-highlight feedlist "---.*---" color22 default bold
-highlight feedlist ".*0/0.." default default invis
+# color background color2 black
+# color info color10 color22 bold
+# color listfocus default default bold
+# color listfocus_unread default default bold
+# highlight feedlist "---.*---" color22 default bold
+# highlight feedlist ".*0/0.." default default invis
 
 # Macros
 macro , open-in-browser
