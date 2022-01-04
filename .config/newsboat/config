@@ -9,8 +9,8 @@ browser "$BROWSER %u"
 # color info color10 color22 bold
 # color listfocus default default bold
 # color listfocus_unread default default bold
-# highlight feedlist "---.*---" color22 default bold
-# highlight feedlist ".*0/0.." default default invis
+highlight feedlist "---.*---" default default bold
+highlight feedlist ".*0/0.." default default invis
 
 # Macros
 macro , open-in-browser

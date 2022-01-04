@@ -1,4 +1,11 @@
+# Podcasts
+"--- Podcasts ---"
+https://feeds.eff.org/howtofixtheinternet "Podcasts" "~How to Fix the Internet by EFF"
+
+" "
+
 # Software projects
-https://archlinux.org/feeds/planet/ "~Arch Linux"
-https://www.undeadly.org/cgi?action=rss "~OpenBSD"
-https://voidlinux.org/atom.xml "~Void Linux"
+"--- Software Projects ---"
+https://archlinux.org/feeds/planet/ "Software" "~Arch Linux"
+https://www.undeadly.org/cgi?action=rss "Software" "~OpenBSD"
+https://voidlinux.org/atom.xml "Software" "~Void Linux"
