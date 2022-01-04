@@ -1,6 +1,0 @@
-#!/bin/sh
-
-exec $BROWSER
-
-# url=$(cat $HOME/.local/share/url | dmenu -p URL:)
-# [ -n $url ] && $BROWSER $url
