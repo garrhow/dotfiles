@@ -1,4 +1,7 @@
 [Desktop Entry]
 Type=Application
-Name=File Manager
+Name=mupdf
+GenericName=Document Viewer
 Exec=/usr/bin/mupdf %u
+Terminal=false
+MimeType=application/pdf

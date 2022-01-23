@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Brave
+GenericName=Web Browser
+Exec=/usr/bin/brave
+Terminal=false
+MimeType=x-scheme-handler/http;x-scheme-handler/https

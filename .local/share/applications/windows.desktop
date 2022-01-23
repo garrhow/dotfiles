@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Wine
+Exec=/usr/bin/wine
+Terminal=false
+MimeType=application/exe;application/msi

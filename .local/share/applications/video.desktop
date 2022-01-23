@@ -1,4 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=Video player
+Name=mpv
+GenericName=Video Player
 Exec=/usr/bin/mpv %f
+Terminal=false

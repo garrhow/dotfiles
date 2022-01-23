@@ -1,4 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=Terminal
+Name=st
+GenericName=Terminal
 Exec=/usr/local/bin/st
+Terminal=false

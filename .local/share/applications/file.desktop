@@ -1,4 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=File Manager
+Name=lf
+GenericName=File Manager
 Exec=/usr/local/bin/st -e lf %u
+Terminal=true

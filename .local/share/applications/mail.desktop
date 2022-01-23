@@ -1,4 +1,7 @@
 [Desktop Entry]
 Type=Application
-Name=Mail client
+Name=Neomutt
+GenericName=Mail Client
 Exec=/usr/local/bin/st -e neomutt %u
+Terminal=true
+MimeType=x-scheme-handler/mailto

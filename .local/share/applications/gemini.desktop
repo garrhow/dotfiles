@@ -1,4 +1,8 @@
 [Desktop Entry]
 Type=Application
-Name=Gemini Client
-Exec=/usr/local/bin/st -e amfora
+Name=Amfora
+GenericName=Gemini Client
+Exec=amfora
+# Exec=/usr/local/bin/st -e amfora
+Terminal=true
+MimeType=x-scheme-handler/gemini;text/gemini
