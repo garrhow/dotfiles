@@ -16,4 +16,5 @@ x-scheme-handler/http=web.desktop;
 x-scheme-handler/https=web.desktop;
 x-scheme-handler/irc=chat.desktop;
 x-scheme-handler/mailto=mail.desktop;
+x-scheme-handler/terminal=terminal.desktop;
 x-scheme-handler/xmpp=chat.desktop;
