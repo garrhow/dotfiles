@@ -1,17 +1,19 @@
 [Default Applications]
 
-text/x-shellscript=text.desktop;
-x-scheme-handler/irc=chat.desktop;
-x-scheme-handler/gemini=gemini.desktop;
-x-scheme-handler/gopher=gemini.desktop;
-x-scheme-handler/mailto=mail.desktop;
-x-scheme-handler/xmpp=chat.desktop;
-text/plain=text.desktop;
-text/gemini=gemini.desktop;
 application/postscript=pdf.desktop;
 application/pdf=pdf.desktop;
 image/png=img.desktop;
 image/jpeg=img.desktop;
 image/gif=img.desktop;
-video/x-matroska=video.desktop
 inode/directory=file.desktop
+text/gemini=gemini.desktop;
+text/plain=text.desktop;
+text/x-shellscript=text.desktop;
+video/x-matroska=video.desktop
+x-scheme-handler/gemini=gemini.desktop;
+x-scheme-handler/gopher=gemini.desktop;
+x-scheme-handler/http=web.desktop;
+x-scheme-handler/https=web.desktop;
+x-scheme-handler/irc=chat.desktop;
+x-scheme-handler/mailto=mail.desktop;
+x-scheme-handler/xmpp=chat.desktop;
