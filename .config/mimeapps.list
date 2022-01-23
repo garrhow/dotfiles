@@ -1,10 +1,13 @@
 [Default Applications]
 
 text/x-shellscript=text.desktop;
-x-scheme-handler/mailto=mail.desktop;
 x-scheme-handler/irc=chat.desktop;
+x-scheme-handler/gemini=gemini.desktop;
+x-scheme-handler/gopher=gemini.desktop;
+x-scheme-handler/mailto=mail.desktop;
 x-scheme-handler/xmpp=chat.desktop;
 text/plain=text.desktop;
+text/gemini=gemini.desktop;
 application/postscript=pdf.desktop;
 application/pdf=pdf.desktop;
 image/png=img.desktop;

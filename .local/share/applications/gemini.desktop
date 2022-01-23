@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Gemini Client
+Exec=/usr/local/bin/st -e amfora
