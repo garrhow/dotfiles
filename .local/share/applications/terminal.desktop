@@ -2,6 +2,7 @@
 Type=Application
 Name=st
 GenericName=Terminal
-Exec=/usr/local/bin/st -e %F
+Categories=System;TerminalEmulator
+Exec=st -e %u
 Terminal=false
 MimeType=x-scheme-handler/terminal

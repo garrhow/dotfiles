@@ -4,4 +4,4 @@ Name=Weechat
 GenericName=Chat Client
 Exec=/usr/local/bin/st -e weechat %u
 Terminal=true
-MimeType=x-scheme-handler/irc;x-scheme-handler/xmpp
+MimeType=x-scheme-handler/irc;x-scheme-handler/ircs;x-scheme-handler/xmpp

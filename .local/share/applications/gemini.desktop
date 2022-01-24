@@ -2,6 +2,7 @@
 Type=Application
 Name=Amfora
 GenericName=Gemini Client
-Exec=/usr/local/bin/st -e amfora
+# Exec=/usr/local/bin/st -e amfora
+Exec=/usr/bin/amfora
 Terminal=true
 MimeType=x-scheme-handler/gemini;text/gemini
