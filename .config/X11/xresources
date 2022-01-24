@@ -1,7 +1,6 @@
-! Fonts
-Xft.dpi: 96
-
-! Colorscheme
+!!
+! Color scheme
+!!
 
 ! special
 *.foreground: #555555
@@ -13,7 +12,6 @@ Xft.dpi: 96
 *.color8: #4a697d
 
 ! red
-/* *.color1: #d12f2c */
 *.color1: #d12f2c
 *.color9: #fa3935
 
