@@ -2,5 +2,5 @@
 Type=Application
 Name=Neovim
 GenericName=Text Editor
-Exec=/usr/local/bin/st -e nvim
+Exec=/usr/bin/nvim %f
 Terminal=true

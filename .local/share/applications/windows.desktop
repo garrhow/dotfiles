@@ -1,6 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=Wine
-Exec=/usr/bin/wine
+GenericName=Windows Compatibility Layer
+Exec=/usr/bin/wine %f
 Terminal=false
 MimeType=application/exe;application/msi

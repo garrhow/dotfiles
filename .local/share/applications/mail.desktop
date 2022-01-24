@@ -2,6 +2,6 @@
 Type=Application
 Name=Neomutt
 GenericName=Mail Client
-Exec=neomutt %u
+Exec=/usr/bin/neomutt %u
 Terminal=true
 MimeType=x-scheme-handler/mailto
