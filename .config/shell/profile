@@ -9,9 +9,9 @@
 ##
 
 # Default programs
+export BROWSER="librewolf"
 export EDITOR="nvim"
 export TERMINAL="st"
-export BROWSER="brave"
 
 # XDG
 export XDG_CONFIG_HOME="$HOME/.config"

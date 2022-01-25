@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
-Name=Brave
+Name=LibreWolf
 GenericName=Web Browser
-Exec=/usr/bin/brave %u
+Exec=/usr/bin/librewolf %u
 Terminal=false
 MimeType=x-scheme-handler/http;x-scheme-handler/https
