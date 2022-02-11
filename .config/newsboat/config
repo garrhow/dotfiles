@@ -1,5 +1,7 @@
 # Main configuration
-auto-reload no
+auto-reload yes
+notify-always yes
+notify-program "/usr/bin/notify-send"
 reload-threads 100
 reload-time 10
 browser "$BROWSER %u"
