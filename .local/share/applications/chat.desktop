@@ -2,6 +2,6 @@
 Type=Application
 Name=Weechat
 GenericName=Chat Client
-Exec=/usr/bin/weechat %u
+Exec=weechat %u
 Terminal=true
 MimeType=x-scheme-handler/irc;x-scheme-handler/ircs;x-scheme-handler/xmpp

@@ -2,5 +2,5 @@
 Type=Application
 Name=lf
 GenericName=File Manager
-Exec=/usr/bin/lf %u
+Exec=lf %u
 Terminal=true

@@ -2,6 +2,6 @@
 Type=Application
 Name=Wine
 GenericName=Windows Compatibility Layer
-Exec=/usr/bin/wine %f
+Exec=wine %f
 Terminal=false
 MimeType=application/exe;application/msi

@@ -2,6 +2,6 @@
 Type=Application
 Name=mupdf
 GenericName=Document Viewer
-Exec=/usr/bin/mupdf %u
+Exec=mupdf %u
 Terminal=false
 MimeType=application/pdf
