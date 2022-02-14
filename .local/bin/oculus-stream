@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# oculus-stream — this script wirelessly connects to $IP, creates a v4l2 devices, and takes the right eye and crops it for 16:9 screens
+
+IP=192.168.1.210 # Remember to change this!
+scrcpy --tcpip=$IP --v4l2-sink=/dev/video2 --crop 1600:900:2017:510 -b 8M --window-title "Oculus Quest Video Feed"
