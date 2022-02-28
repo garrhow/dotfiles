@@ -1,3 +1,5 @@
+all: deploy
+
 deploy:
 	mkdir -p ~/.config
 	mkdir -p ~/.local/bin
@@ -5,3 +7,9 @@ deploy:
 	cp -r .config/* ~/.config/
 	cp -r .local/bin/* ~/.local/bin/
 	cp -r .local/share/* ~/.local/share/
+
+themes:
+	cp -r .themes/icons ~/.local/share/icons
+	cp -r .themes/themes ~/.local/share/themes
+
+.PHONY: deploy themes
