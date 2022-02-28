@@ -34,5 +34,5 @@ export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 
 # open the window manager on login
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-	  startx
+	  startx $XINITRC
 fi
