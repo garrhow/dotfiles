@@ -16,11 +16,12 @@ prompt redhat
 autoload -U compinit
 zmodload zsh/complist
 compinit
+_comp_options+=(globdots)
 
 # history
 HISTSIZE=10000000
 SAVEHIST=10000000
-HISTFILE=~/.cache/zsh/history
+HISTFILE=$XDG_CONFIG_HOME/zsh/history
 
 # syntax highlighting
 source $XDG_CONFIG_HOME/zsh/plugins/syntax-highlighting.zsh 2>/dev/null
