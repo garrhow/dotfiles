@@ -3,6 +3,9 @@
 # add .local/bin to path
 export PATH="$PATH:~/.local/bin"
 
+# aliases
+alias startx="startx $XINITRC"
+
 # enable colors and prompt
 autoload -U colors && colors
 autoload -Uz promptinit
