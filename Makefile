@@ -1,7 +1,7 @@
 deploy:
-	[ ! -d ~/.config ]; mkdir -p ~/.config
-	[ ! -d ~/.local/bin ]; mkdir -p ~/.local/bin
-	[ ! -d ~/.local/share ]; mkdir -p ~/.local/share
-	cp .config/* ~/.config/ -r
-	cp .local/bin/* ~/.local/bin/ -r
-	cp .local/share/* ~/.local/share/ -r
+	mkdir -p ~/.config
+	mkdir -p ~/.local/bin
+	mkdir -p ~/.local/share
+	cp -r .config/* ~/.config/
+	cp -r .local/bin/* ~/.local/bin/
+	cp -r .local/share/* ~/.local/share/
