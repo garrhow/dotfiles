@@ -8,9 +8,7 @@ alias startx="startx $XINITRC"
 
 # enable colors and prompt
 autoload -U colors && colors
-autoload -Uz promptinit
-promptinit
-prompt redhat
+PS1="%F{blue}[%B%F{cyan}%n@%m %0~%b%F{blue}]%f%(#.#.$) "
 
 # enable autocompletion
 autoload -U compinit
