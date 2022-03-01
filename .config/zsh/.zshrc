@@ -22,4 +22,5 @@ SAVEHIST=10000000
 HISTFILE=$XDG_CONFIG_HOME/zsh/history
 
 # syntax highlighting
+source $XDG_CONFIG_HOME/zsh/plugins/autosuggestions.zsh 2>/dev/null
 source $XDG_CONFIG_HOME/zsh/plugins/syntax-highlighting.zsh 2>/dev/null
