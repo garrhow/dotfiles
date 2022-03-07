@@ -26,6 +26,12 @@ HISTSIZE=10000000
 SAVEHIST=10000000
 HISTFILE=$XDG_CONFIG_HOME/zsh/history
 
+# key bindings
+bindkey "^[[1;5D" backward-word
+bindkey "^[[1;5C" forward-word
+bindkey '^[[H' beginning-of-line
+bindkey '^[[F' end-of-line
+
 # autosuggestions and syntax highlighting
 source $XDG_CONFIG_HOME/zsh/plugins/autosuggestions.zsh 2>/dev/null
 source $XDG_CONFIG_HOME/zsh/plugins/syntax-highlighting.zsh 2>/dev/null

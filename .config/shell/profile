@@ -9,7 +9,7 @@
 # Default programs
 export BROWSER="librewolf"
 export EDITOR="nvim"
-export TERMINAL="st"
+export TERMINAL="alacritty"
 
 # XDG
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -31,8 +31,3 @@ export LESSHSTFILE="-"
 export PASSWORD_STORE_DIR="$XDG_DATA_HOME/password-store"
 export SDL_JOYSTICK_HIDAPI=0
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
-
-# open the window manager on login
-if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-	  startx $XINITRC
-fi
