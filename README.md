@@ -23,7 +23,8 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 
 This repository includes a `Makefile` with commands for easing the use of these dotfiles.
 
-- `make deploy`: Deploys dotfiles to user's home directory. This **will** overwrite your existing dotfiles, please back them up.
+- `make deploy`: Deploys dotfiles to user's home directory. This **will** overwrite your existing dotfiles, so please back them up.
+- `make themes`: Deploys desktop themes and icons to the user's home directory.
 
 ## Acknowledgements
 
