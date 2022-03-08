@@ -1,6 +1,9 @@
 -- Load luarocks if available
 pcall(require, "luarocks.loader")
 
+-- Disable tmux hotkeys
+package.loaded["awful.hotkeys_popup.keys.tmux"] = {}
+
 -- Standard awesome libraries
 local awful = require("awful")
 local beautiful = require("beautiful")

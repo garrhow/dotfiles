@@ -50,9 +50,17 @@ globalkeys = gears.table.join(
         end,
         {description = "go back", group = "client"}),
 
-    -- Standard program
+    -- Launch standard programs
     awful.key({ modkey,           }, "Return", function () awful.spawn(apps.terminal) end,
               {description = "open a terminal", group = "launcher"}),
+    awful.key({ modkey, "Shift"   }, "f", function () awful.spawn(apps.browser) end,
+              {description = "open a web browser", group = "launcher"}),
+
+    -- Launch other programs
+    awful.key({}, "Print", function () awful.spawn(apps.screenshot) end,
+              {description = "take a screenshot", group = "launcher"}),
+
+    -- Awesome controls
     awful.key({ modkey, "Control" }, "r", awesome.restart,
               {description = "reload awesome", group = "awesome"}),
     awful.key({ modkey, "Shift"   }, "e", awesome.quit,

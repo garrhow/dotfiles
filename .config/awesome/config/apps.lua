@@ -1,6 +1,7 @@
 apps = {
 	browser = os.getenv("BROWSER") or "firefox",
 	editor = os.getenv("EDITOR") or "vi",
+	screenshot = "flameshot gui",
 	terminal = os.getenv("TERMINAL") or "xterm",
 }
 
