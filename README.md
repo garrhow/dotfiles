@@ -4,17 +4,15 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 
 - Settings for:
 	- basic utilities
-		- [bash](https://www.gnu.org/software/bash/) (Unix shell)
+		- [zsh](https://www.gnu.org/software/bash/) (Unix shell)
 		- [nvim](https://neovim.io/) (text editor)
 		- [librewolf](https://librewolf.net/) (web browser)
 	- desktop environment
-		- [dunst](https://dunst-project.org/) (notification daemon)
+		- [awesome](https://awesomewm.org/) (window manager)
 		- [flameshot](https://flameshot.org/) (screenshot utility)
 		- [xorg](https://www.x.org) (x window system implementation)
-		- [xwallpaper](https://github.com/stoeckmann/xwallpaper/) (wallpaper setter)
 	- personal software
 		- [abook](https://abook.sourceforge.io) (address book)
-		- [lf](https://github.com/gokcehan/lf/) (file manager)
 		- [mpd](https://www.musicpd.org/)/[ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) (music)
 		- [neomutt](https://neomutt.org/) (email)
 		- [newsboat](https://newsboat.org/) (rss reader)
@@ -29,10 +27,6 @@ This repository includes a `Makefile` with commands for easing the use of these 
 
 ## Acknowledgements
 
-These dotfiles were intended for use with a Unix-like operating system (Arch Linux, Gentoo, OpenBSD, etc.) and suckless programs such as:
-
-- [dmenu](https://tools.suckless.org/dmenu/) (menu bar)
-- [dwm](https://dwm.suckless.org/) (window manager)
-- [st](https://st.suckless.org/) (terminal emulator)
+These dotfiles were intended for use with a Unix-like operating system (Arch Linux, Gentoo, OpenBSD, etc.).
 
 The scripts found in `~/.local/bin/` are POSIX-compliant and will work with most shells and sets of UNIX utilities, e.g., GNU coreutils, Plan 9, \*BSD, etc.
