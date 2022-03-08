@@ -8,8 +8,8 @@ window:
   #  columns: 0
   #  lines: 0
   padding:
-    x: 12
-    y: 12
+    x: 32
+    y: 32
 
   #dynamic_padding: false
 
