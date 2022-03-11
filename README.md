@@ -8,8 +8,10 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 		- [nvim](https://neovim.io/) (text editor)
 		- [librewolf](https://librewolf.net/) (web browser)
 	- desktop environment
+		- [alacritty](https://alacritty.org/) (terminal emulator)
 		- [awesome](https://awesomewm.org/) (window manager)
 		- [flameshot](https://flameshot.org/) (screenshot utility)
+		- [picom](https://github.com/yshui/picom) (compositor)
 		- [xorg](https://www.x.org) (x window system implementation)
 	- personal software
 		- [abook](https://abook.sourceforge.io) (address book)
