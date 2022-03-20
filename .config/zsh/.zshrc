@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # add .local/bin to path
-export PATH="$PATH:~/.local/bin"
+export PATH="$PATH:$HOME/.local/bin"
 
 # aliases
 alias startx="startx $XINITRC"
