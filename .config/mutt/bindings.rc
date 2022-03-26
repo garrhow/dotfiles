@@ -1,10 +1,11 @@
 # bindings.rc - Bindings configuration
 
 bind editor <Tab> complete-query
-bind index G imap-fetch-mail
 bind index,pager \Ck sidebar-prev       # Ctrl-Shift-P - Previous Mailbox
 bind index,pager \Cj sidebar-next       # Ctrl-Shift-N - Next Mailbox
 bind index,pager \Co sidebar-open       # Ctrl-Shift-O - Open Highlighted Mailbox
 bind index,pager \Cb sidebar-toggle-visible
+
+macro index G "!mbsync -a -c \$MBSYNCRC^M" "Refresh inbox"
 
 # vim: syntax=muttrc
