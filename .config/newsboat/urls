@@ -15,5 +15,10 @@ https://feeds.eff.org/howtofixtheinternet "Podcasts" "~How to Fix the Internet b
 # Software projects
 "--- Software Projects ---"
 https://archlinux.org/feeds/planet/ "Software" "~Arch Linux"
+https://www.dragonflydigest.com/feed "Software" "~DragonFly BSD"
+https://www.freebsd.org/news/feed.xml "Software" "~FreeBSD"
+https://www.gentoo.org/feeds/news.xml "Software" "~Gentoo Linux"
+http://www.netbsd.org/changes/rss-netbsd.xml "Software" "~NetBSD"
 https://www.undeadly.org/cgi?action=rss "Software" "~OpenBSD"
+https://www.parabola.nu/feeds/news/ "Software" "~Parabola"
 https://voidlinux.org/atom.xml "Software" "~Void Linux"
