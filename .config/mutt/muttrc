@@ -33,7 +33,6 @@ set certificate_file = "~/.config/mutt/certificates"
 set date_format = "%m/%d %I:%M%p"
 set fast_reply
 set header_cache = "~/.config/mutt/cache/headers"
-set mail_check = 10
 set mailcap_path = "~/.config/mutt/mailcap"
 set markers = no
 set message_cachedir = "~/.config/mutt/cache/bodies"

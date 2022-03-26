@@ -1,11 +1,14 @@
 # inboxes.rc - Inbox configuration
 
-# set mbox_type = "Maildir"
+set mbox_type = "Maildir"
+set folder = "~/.local/share/mail"
 set spoolfile = "+Inbox"
 set record = "+Sent"
 set trash = "+Junk"
 set postponed = "+Drafts"
 
-mailboxes = +Inbox +Sent +Drafts +Junk
+mailboxes +Inbox +Sent +Drafts +Junk
+
+set header_cache=~/.cache/mutt
 
 # vim: syntax=muttrc

@@ -1,9 +1,0 @@
-# imap.rc - IMAP configuration
-
-set imap_user = "[email address]"
-set imap_pass = "[email password]"
-
-set folder = "imaps://[mailserver]:993"
-set spoolfile="[inbox]"
-
-# vim: syntax=muttrc
