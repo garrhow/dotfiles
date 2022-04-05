@@ -13,7 +13,6 @@ subscribe "gentoo-.*@gentoo\\.org"
 source ~/.config/mutt/bindings.rc
 source ~/.config/mutt/colors.rc
 source ~/.config/mutt/gpg.rc
-source ~/.config/mutt/imap.rc
 source ~/.config/mutt/inboxes.rc
 source ~/.config/mutt/sidebar.rc
 source ~/.config/mutt/smtp.rc
