@@ -4,3 +4,4 @@ Name=mpv
 GenericName=Video Player
 Exec=mpv %f
 Terminal=false
+NoDisplay=true

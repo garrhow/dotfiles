@@ -5,3 +5,4 @@ GenericName=Document Viewer
 Exec=mupdf %u
 Terminal=false
 MimeType=application/pdf
+NoDisplay=true

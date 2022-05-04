@@ -4,3 +4,4 @@ Name=lf
 GenericName=File Manager
 Exec=lf %u
 Terminal=true
+NoDisplay=true

@@ -5,3 +5,4 @@ GenericName=Windows Compatibility Layer
 Exec=wine %f
 Terminal=false
 MimeType=application/exe;application/msi
+NoDisplay=true

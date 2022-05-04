@@ -4,3 +4,4 @@ Name=Neovim
 GenericName=Text Editor
 Exec=nvim %f
 Terminal=true
+NoDisplay=true

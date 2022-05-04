@@ -5,3 +5,4 @@ GenericName=Mail Client
 Exec=neomutt %u
 Terminal=true
 MimeType=x-scheme-handler/mailto
+NoDisplay=true

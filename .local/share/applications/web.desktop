@@ -5,3 +5,4 @@ GenericName=Web Browser
 Exec=librewolf %u
 Terminal=false
 MimeType=x-scheme-handler/http;x-scheme-handler/https
+NoDisplay=true

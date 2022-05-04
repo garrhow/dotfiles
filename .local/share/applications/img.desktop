@@ -4,3 +4,4 @@ Name=sxiv
 GenericName=Image Viewer
 Exec=sxiv -a %f
 Terminal=false
+NoDisplay=true
