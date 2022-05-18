@@ -71,19 +71,6 @@ theme.systray_icon_spacing = dpi(2)
 
 theme.bar_item_padding = 2
 
-theme.titlebar_close_button_normal = images_path.."titlebar/close_normal.png"
-theme.titlebar_close_button_focus  = images_path.."titlebar/close_focus.png"
-
-theme.titlebar_floating_button_normal_inactive = images_path.."titlebar/float_normal.png"
-theme.titlebar_floating_button_focus_inactive  = images_path.."titlebar/float_focus.png"
-theme.titlebar_floating_button_normal_active = images_path.."titlebar/float_normal.png"
-theme.titlebar_floating_button_focus_active  = images_path.."titlebar/float_focus.png"
-
-theme.titlebar_maximized_button_normal_inactive = images_path.."titlebar/maximize_normal.png"
-theme.titlebar_maximized_button_focus_inactive  = images_path.."titlebar/maximize_focus.png"
-theme.titlebar_maximized_button_normal_active = images_path.."titlebar/maximize_normal.png"
-theme.titlebar_maximized_button_focus_active  = images_path.."titlebar/maximize_focus.png"
-
 theme.wallpaper = os.getenv("XDG_DATA_HOME") .. "/" .. "wallpaper"
 
 theme.icon_theme = "Papirus"

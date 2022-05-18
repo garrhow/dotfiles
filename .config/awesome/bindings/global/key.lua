@@ -107,9 +107,11 @@ globalkeys = gears.table.join(
                   }
               end,
               {description = "lua execute prompt", group = "awesome"}),
-    -- Menubar
-    awful.key({ modkey }, "d", function() menubar.show() end,
-              {description = "show the menubar", group = "launcher"})
+    -- App menu
+    awful.key({ modkey }, "d", function() awful.spawn.with_shell("rofi -show drun -show-icons") end,
+              {description = "show the app menu", group = "launcher"}),
+    awful.key({ modkey }, "p", function() awful.spawn.with_shell("rofi-pass") end,
+              {description = "show the pass menu", group = "launcher"})
 )
 
 for i = 1, 9 do
