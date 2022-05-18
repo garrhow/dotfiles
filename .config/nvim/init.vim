@@ -18,7 +18,6 @@ Plug 'vim-scripts/vim-startify'
 Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
-set title
 set bg=light
 set go=a
 set mouse=a
