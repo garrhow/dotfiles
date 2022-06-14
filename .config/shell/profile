@@ -3,9 +3,9 @@
 ##
 
 # Default programs
-export BROWSER="librewolf"
+export BROWSER="chromium"
 export EDITOR="nvim"
-export TERMINAL="alacritty"
+export TERMINAL="foot"
 
 # XDG
 export XDG_CONFIG_HOME="$HOME/.config"
