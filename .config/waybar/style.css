@@ -103,3 +103,7 @@ window#waybar.hidden {
 	color: #88C0D0;
 	box-shadow: inset 0 -2px #88C0D0;
 }
+
+#tray {
+	margin-right: 16px;
+}
