@@ -5,7 +5,7 @@
 	"spacing": 16,
 	"modules-left": ["sway/workspaces", "sway/mode"],
 	"modules-center": ["sway/window"],
-	"modules-right": ["custom/kernel", "network", "cpu", "memory", "temperature", "battery", "clock", "tray"],
+	"modules-right": ["idle_inhibitor", "custom/kernel", "network", "cpu", "memory", "temperature", "battery", "clock", "tray"],
 	"battery": {
 		"states": {
 			"good": 95,
@@ -34,6 +34,13 @@
 		"format": " {}",
 		"exec": "uname -r",
 		"interval": 600
+	},
+	"idle_inhibitor": {
+		"format": "{icon}",
+		"format-icons": {
+			"activated": "",
+			"deactivated": ""
+		}
 	},
 	"memory": {
 		"format": " {}%"

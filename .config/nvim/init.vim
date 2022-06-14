@@ -11,6 +11,7 @@ call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"
 " Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
 " Plug 'tpope/vim-fugitive'
+Plug 'jamespeapen/swayconfig.vim'
 Plug 'bling/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'

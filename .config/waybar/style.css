@@ -63,10 +63,16 @@ window#waybar.hidden {
 #clock,
 #cpu,
 #custom-kernel,
+#idle_inhibitor,
 #memory,
 #network,
 #temperature {
 	box-shadow: inset 0 -3px transparent;
+}
+
+#idle_inhibitor {
+	color: #5E81AC;
+	opacity: 0.5;
 }
 
 #custom-kernel {
