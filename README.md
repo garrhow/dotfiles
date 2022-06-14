@@ -4,12 +4,10 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 
 - Settings for:
 	- basic utilities
-		- [amfora](https://github.com/makeworld-the-better-one/amfora) (gemini browser)
 		- [chromium](https://librewolf.net/) (web browser)
 		- [nvim](https://neovim.io/) (text editor)
 		- [zsh](https://www.gnu.org/software/bash/) (Unix shell)
 	- desktop environment
-		- [amfora](https://github.com/makeworld-the-better-one/amfora) (gemini browser)
 		- [dunst](https://dunst-project.org/) (notification daemon)
 		- [foot](https://codeberg.org/dnkl/foot) (terminal emulator)
 		- [grim](https://wayland.emersion.fr/grim/) (screenshot utility)
