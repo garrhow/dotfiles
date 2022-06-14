@@ -1,0 +1,10 @@
+##
+# Miscellaneous options
+##
+
+# Compose key
+input * {
+	xkb_options compose:menu
+}
+
+# vim: syntax=swayconfig

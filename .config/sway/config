@@ -1,0 +1,30 @@
+##
+# Sway configuration
+##
+
+# Variables
+include ~/.config/sway/config.d/variables
+
+# Appearance
+include ~/.config/sway/config.d/appearance
+
+# Autostart
+include ~/.config/sway/config.d/autostart
+
+# Display
+include ~/.config/sway/config.d/display
+
+# Power management
+include ~/.config/sway/config.d/power
+
+# Input
+include ~/.config/sway/config.d/input
+
+# Bindings
+include ~/.config/sway/config.d/bindings
+
+# Miscellaneous
+include ~/.config/sway/config.d/misc
+
+# System-specific configuration files
+include /etc/sway/config.d/*

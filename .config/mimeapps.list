@@ -30,7 +30,6 @@ image/gif=img.desktop
 
 inode/directory=file.desktop
 
-text/gemini=gemini.desktop
 text/plain=text.desktop
 text/x-shellscript=text.desktop
 

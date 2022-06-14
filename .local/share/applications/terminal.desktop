@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=Application
-Name=Alacritty
+Name=foot
 GenericName=Terminal
 Categories=System;TerminalEmulator
-Exec=alacritty -e %u
+Exec=foot -e %u
 Terminal=false
 MimeType=x-scheme-handler/terminal
 NoDisplay=true

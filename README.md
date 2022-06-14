@@ -4,29 +4,44 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 
 - Settings for:
 	- basic utilities
-		- [zsh](https://www.gnu.org/software/bash/) (Unix shell)
+		- [amfora](https://github.com/makeworld-the-better-one/amfora) (gemini browser)
+		- [chromium](https://librewolf.net/) (web browser)
 		- [nvim](https://neovim.io/) (text editor)
-		- [librewolf](https://librewolf.net/) (web browser)
+		- [zsh](https://www.gnu.org/software/bash/) (Unix shell)
 	- desktop environment
-		- [alacritty](https://alacritty.org/) (terminal emulator)
-		- [awesome](https://awesomewm.org/) (window manager)
-		- [flameshot](https://flameshot.org/) (screenshot utility)
-		- [picom](https://github.com/yshui/picom) (compositor)
-		- [xorg](https://www.x.org) (x window system implementation)
+		- [amfora](https://github.com/makeworld-the-better-one/amfora) (gemini browser)
+		- [dunst](https://dunst-project.org/) (notification daemon)
+		- [foot](https://codeberg.org/dnkl/foot) (terminal emulator)
+		- [grim](https://wayland.emersion.fr/grim/) (screenshot utility)
+		- [imv](https://sr.ht/~exec64/imv/) (image viewer)
+		- [lxsession](https://github.com/lxde/lxsession) (Polkit authentication agent)
+		- [mpv](https://mpv.io/) (audio & video player)
+		- [noto](https://fonts.google.com/noto) (font family)
+		- [playerctl](https://github.com/altdesktop/playerctl) (media controller)
+		- [slurp](https://wayland.emersion.fr/grim/) (reigon selection tool)
+		- [sway](https://swaywm.org/) (Wayland compositor)
+		- [swaybg](https://github.com/swaywm/swaybg) (wallpaper setter)
+		- [swayidle](https://github.com/swaywm/swayidle) (idle manager)
+		- [swaylock](https://github.com/swaywm/swaylock) (screen locker)
+		- [waybar](https://github.com/Alexays/Waybar) (status bar)
+		- [wl-clipboard](https://github.com/bugaevc/wl-clipboard) (clipboard utility)
+		- [wofi](https://hg.sr.ht/~scoopta/wofi) (application launcher)
+		- [xdg-desktop-portal-wlr](https://github.com/emersion/xdg-desktop-portal-wlr) (desktop integration portal)
+		- [zathura](https://pwmt.org/projects/zathura/) (document viewer)
 	- personal software
 		- [abook](https://abook.sourceforge.io) (address book)
-		- [mpd](https://www.musicpd.org/)/[ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) (music)
+		- [mpd](https://www.musicpd.org/)/[ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) (music daemon)
 		- [neomutt](https://neomutt.org/) (email)
 		- [newsboat](https://newsboat.org/) (rss reader)
-		- [mupdf](https://mupdf.com) (document viewer)
+		- [pass](https://www.passwordstore.org/) (password manager)
 - Scripts in `~/.local/bin/`
 
 ## Usage
 
 This repository includes a `Makefile` with commands for easing the use of these dotfiles.
 
-- `make deploy`: Deploys dotfiles to user's home directory. This **will** overwrite your existing dotfiles, so please back them up.
-- `make themes`: Deploys desktop themes and icons to the user's home directory.
+- `make deploy`: Deploys dotfiles to user's home directory. This **will** overwrite pre-existing dotfiles, so please back them up.
+- `make themes`: Deploys desktop themes and icons to the current user's home directory.
 
 ## Acknowledgements
 

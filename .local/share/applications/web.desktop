@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
-Name=LibreWolf
+Name=Chromium
 GenericName=Web Browser
-Exec=librewolf %u
+Exec=chromium %u
 Terminal=false
 MimeType=x-scheme-handler/http;x-scheme-handler/https
 NoDisplay=true

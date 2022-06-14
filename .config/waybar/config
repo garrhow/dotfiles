@@ -1,0 +1,63 @@
+{
+	"layer": "top",
+	"position": "top",
+	"height": 30,
+	"spacing": 16,
+	"modules-left": ["sway/workspaces", "sway/mode"],
+	"modules-center": ["sway/window"],
+	"modules-right": ["custom/kernel", "network", "cpu", "memory", "temperature", "battery", "clock", "tray"],
+	"battery": {
+		"states": {
+			"good": 95,
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{icon} {capacity}%",
+		"format-charging": " {capacity}%",
+		"format-plugged": " {capacity}%",
+		"format-alt": "{icon} {time}",
+		"format-good": "",
+		"format-full": "",
+		"format-icons": ["", "", "", "", ""]
+	},
+	"clock": {
+		"format": "{:%r}",
+		"format-alt": "{:%Y-%m-%d}",
+		"interval": 1,
+        	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+	},
+	"cpu": {
+		"format": " {usage}%",
+        	"tooltip": false
+	},
+	"custom/kernel": {
+		"format": " {}",
+		"exec": "uname -r",
+		"interval": 600
+	},
+	"memory": {
+		"format": " {}%"
+	},
+	"network": {
+		"format-wifi": " {essid} ({signalStrength}%)",
+		"format-ethernet": " {ipaddr}",
+		"tooltip-format": "{ifname} via {gwaddr}",
+		"format-linked": " {ifname} is offline",
+		"format-disconnected": "⚠ Disconnected",
+		"format-alt": "{ifname}: {ipaddr}/{cidr}"
+	},
+	"sway/mode": {
+		"format": "<span style=\"italic\">{}</span>"
+	},
+	"temperature": {
+		"critical-threshold": 70,
+		"format-critical": "{icon} {temperatureC}°C (CRITICAL)",
+		"format": "{icon} {temperatureC}°C",
+		"format-icons": ["", "", ""]
+	},
+	"tray": {
+        	"icon-size": 16,
+		"spacing": 8
+	},
+}
+

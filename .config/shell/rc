@@ -3,9 +3,6 @@
 # add .local/bin to path
 export PATH="$PATH:$HOME/.local/bin"
 
-# aliases
-alias startx="startx $XINITRC"
-
 # basic shell tweaks
 setopt autocd
 stty stop undef

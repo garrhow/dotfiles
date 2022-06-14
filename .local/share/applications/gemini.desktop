@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Amfora
-GenericName=Gemini Client
-Exec=amfora %u
-Terminal=true
-MimeType=x-scheme-handler/gemini;text/gemini
-NoDisplay=true

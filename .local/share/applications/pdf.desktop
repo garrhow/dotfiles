@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
-Name=mupdf
+Name=Zathura
 GenericName=Document Viewer
-Exec=mupdf %u
+Exec=zathura %u
 Terminal=false
 MimeType=application/pdf
 NoDisplay=true

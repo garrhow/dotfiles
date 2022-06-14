@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
-Name=lf
+Name=Nautilus
 GenericName=File Manager
-Exec=lf %u
-Terminal=true
+Exec=nautilus %u
+Terminal=false
 NoDisplay=true

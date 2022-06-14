@@ -1,0 +1,8 @@
+##
+# Autostart programs
+##
+
+# Polkit authentication agent
+exec lxsession
+
+# vim: syntax=swayconfig
