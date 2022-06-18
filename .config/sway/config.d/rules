@@ -1,0 +1,7 @@
+##
+# Rules
+##
+
+for_window [app_id="chromium"] inhibit_idle fullscreen
+
+# vim: syntax=swayconfig

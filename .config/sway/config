@@ -23,6 +23,9 @@ include ~/.config/sway/config.d/input
 # Bindings
 include ~/.config/sway/config.d/bindings
 
+# Rules
+include ~/.config/sway/config.d/rules
+
 # Miscellaneous
 include ~/.config/sway/config.d/misc
 
