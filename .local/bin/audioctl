@@ -1,0 +1,55 @@
+#!/bin/sh
+
+OPERATING_SYSTEM=
+SOUND_SYSTEM=
+
+# Check which operating system and sound system the user is running
+case $(uname -s) in
+	# Linux
+	"Linux")
+		OPERATING_SYSTEM="linux"
+		if command -v pipewire &>/dev/null; then
+			SOUND_SYSTEM="pipewire"
+		elif command -v pulseaudio &>/dev/null; then
+			SOUND_SYSTEM="pulseaudio"
+		fi
+		;;
+	*)
+		echo $ERROR_UNSUPPORTED
+		;;
+esac
+
+if [ -z "$SOUND_SYSTEM" ]; then
+	echo "Your sound system is unsupported!"
+	echo "Please open an issue and I will try to implement it! :D"
+	exit
+fi
+
+case "$1" in
+	"info")
+		echo "Operating system: $OPERATING_SYSTEM"
+		echo "Sound system: $SOUND_SYSTEM"
+		;;
+	"toggle-mute-output")
+		case $SOUND_SYSTEM in
+			"pipewire"|"pulseaudio")
+					pactl set-source-mute @DEFAULT_SOURCE@ toggle
+				;;
+		esac
+		;;
+	"toggle-mute-output")
+		case $SOUND_SYSTEM in
+			"pipewire"|"pulseaudio")
+					pactl set-sink-mute @DEFAULT_SINK@ toggle
+				;;
+		esac
+		;;
+	*)
+		echo "Usage: $0 COMMAND - Controller for sound systems"
+		echo
+		echo "Available commands:"
+		echo "  info			Provides info about the system"
+		echo "  toggle-mute-input	Toggles whether the input device is muted or not"
+		echo "  toggle-mute-output	Toggles whether the output device is muted or not"
+		;;
+esac
