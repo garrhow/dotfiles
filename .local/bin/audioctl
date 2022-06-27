@@ -27,6 +27,18 @@ case "$1" in
 		echo "Operating system: $OPERATING_SYSTEM"
 		echo "Sound system: $SOUND_SYSTEM"
 		;;
+	"get-mute-input")
+		case $SOUND_SYSTEM in
+			"pipewire"|"pulseaudio")
+				pactl get-source-mute @DEFAULT_SOURCE@ | awk '{print $2}'
+		esac
+		;;
+	"get-mute-output")
+		case $SOUND_SYSTEM in
+			"pipewire"|"pulseaudio")
+				pactl get-sink-mute @DEFAULT_SINK@ | awk '{print $2}'
+		esac
+		;;
 	"get-volume-input")
 		case $SOUND_SYSTEM in
 			"pipewire"|"pulseaudio")
@@ -62,6 +74,8 @@ case "$1" in
 		echo
 		echo "Available commands:"
 		echo "  info			Provides info about the system"
+		echo "  get-mute-input		Returns the current mute status of the input device"
+		echo "  get-mute-output		Returns the current mute status of the output device"
 		echo "  get-volume-input	Returns the current volume of the input device"
 		echo "  get-volume-output	Returns the current volume of the output device"
 		echo "  toggle-mute-input	Toggles whether the input device is muted or not"

@@ -3,9 +3,9 @@
 	"position": "top",
 	"height": 30,
 	"spacing": 16,
-	"modules-left": ["sway/workspaces", "sway/mode"],
-	"modules-center": ["sway/window"],
-	"modules-right": ["idle_inhibitor", "custom/kernel", "network", "cpu", "memory", "temperature", "battery", "clock", "tray"],
+	"modules-left": ["sway/workspaces", "sway/mode", "sway/window"],
+	"modules-center": ["clock", "custom/weather"],
+	"modules-right": ["idle_inhibitor", "custom/kernel", "network", "cpu", "memory", "temperature", "custom/audio", "battery", "tray"],
 	"battery": {
 		"states": {
 			"good": 95,
@@ -21,8 +21,8 @@
 		"format-icons": ["", "", "", "", ""]
 	},
 	"clock": {
-		"format": "{:%r}",
-		"format-alt": "{:%Y-%m-%d}",
+		"format": "{:%a %b %e %I:%M %p}",
+		"format-alt": "{:%c}",
 		"interval": 1,
         	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
 	},
@@ -30,10 +30,21 @@
 		"format": " {usage}%",
         	"tooltip": false
 	},
+	"custom/audio": {
+		"format": "{}",
+		"exec": "$HOME/.config/waybar/scripts/audio.sh",
+		"on-click": "audioctl toggle-mute-output",
+		"interval": 1
+	},
 	"custom/kernel": {
 		"format": " {}",
 		"exec": "uname -r",
 		"interval": 600
+	},
+	"custom/weather": {
+		"format": " {}",
+		"exec": "curl 'https://wttr.in/?format=1' | cut -d ' ' -f 3 | sed 's/+//'",
+		"interval": 3600
 	},
 	"idle_inhibitor": {
 		"format": "{icon}",
