@@ -30,7 +30,7 @@ case "$1" in
 		echo "Operating system: $OPERATING_SYSTEM"
 		echo "Sound system: $SOUND_SYSTEM"
 		;;
-	"toggle-mute-output")
+	"toggle-mute-input")
 		case $SOUND_SYSTEM in
 			"pipewire"|"pulseaudio")
 					pactl set-source-mute @DEFAULT_SOURCE@ toggle
