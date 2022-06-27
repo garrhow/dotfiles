@@ -45,7 +45,7 @@ case "$1" in
 		esac
 		;;
 	*)
-		echo "Usage: $0 COMMAND - Controller for sound systems"
+		echo "Usage: audioctl COMMAND - Controller for sound systems"
 		echo
 		echo "Available commands:"
 		echo "  info			Provides info about the system"
