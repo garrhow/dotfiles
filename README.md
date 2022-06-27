@@ -11,6 +11,7 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 	- desktop environment
 		- [brightnessctl](https://github.com/Hummer12007/brightnessctl) (screen brightness)
 		- [dunst](https://dunst-project.org/) (notification daemon)
+		- [fuzzel](https://codeberg.org/dnkl/fuzzel) (application launcher)
 		- [grim](https://wayland.emersion.fr/grim/) (screenshot utility)
 		- [imv](https://sr.ht/~exec64/imv/) (image viewer)
 		- [lxsession](https://github.com/lxde/lxsession) (Polkit authentication agent)
@@ -24,7 +25,6 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 		- [swaylock](https://github.com/swaywm/swaylock) (screen locker)
 		- [waybar](https://github.com/Alexays/Waybar) (status bar)
 		- [wl-clipboard](https://github.com/bugaevc/wl-clipboard) (clipboard utility)
-		- [wofi](https://hg.sr.ht/~scoopta/wofi) (application launcher)
 		- [xdg-desktop-portal-wlr](https://github.com/emersion/xdg-desktop-portal-wlr) (desktop integration portal)
 		- [zathura](https://pwmt.org/projects/zathura/) (document viewer)
 	- personal software

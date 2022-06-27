@@ -23,7 +23,7 @@ bindsym $mod+Shift+e exec swaymsg exit
 ##
 
 # Start your launcher
-bindsym $mod+d exec 'wofi --show drun | xargs swaymsg exec --'
+bindsym $mod+d exec 'fuzzel'
 
 # Start a terminal
 bindsym $mod+Return exec $TERMINAL

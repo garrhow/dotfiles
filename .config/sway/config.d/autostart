@@ -5,4 +5,7 @@
 # Polkit authentication agent
 exec lxsession
 
+# Terminal emulator server
+exec foot --server
+
 # vim: syntax=swayconfig
