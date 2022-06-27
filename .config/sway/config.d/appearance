@@ -2,9 +2,6 @@
 # Appearance configuration
 ##
 
-# Cursor
-seat seat0 xcursor_theme Nordic 16
-
 # Font
 font pango:sans 12
 
@@ -14,8 +11,7 @@ gaps inner 32
 # GTK theming
 exec_always {
 	gsettings set org.gnome.desktop.interface gtk-theme 'Pop-Nord'
-	gsettings set org.gnome.desktop.interface icon-theme 'Papirus'
-	gsettings set org.gnome.desktop.interface cursor-theme 'Nordic'
+	gsettings set org.gnome.desktop.interface icon-theme 'papirus'
 	gsettings set org.gnome.desktop.interface cursor-size 16
 	gsettings set org.gnome.desktop.interface font-name 'sans 12'
 }

@@ -3,7 +3,7 @@
 ##
 
 # Notification daemon
-exec mako
+exec mako --icon-path=$HOME/.local/share/icons/papirus
 
 # Polkit authentication agent
 exec lxsession
