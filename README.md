@@ -17,6 +17,7 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 		- [mako](https://wayland.emersion.fr/mako/) (notification daemon)
 		- [mpv](https://mpv.io/) (audio & video player)
 		- [noto](https://fonts.google.com/noto) (font family)
+		- [papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) (icon theme)
 		- [playerctl](https://github.com/altdesktop/playerctl) (media controller)
 		- [slurp](https://wayland.emersion.fr/grim/) (reigon selection tool)
 		- [sway](https://swaywm.org/) (Wayland compositor)
