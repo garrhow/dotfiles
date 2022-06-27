@@ -4,7 +4,7 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 
 - Settings for:
 	- basic utilities
-		- [chromium](https://librewolf.net/) (web browser)
+		- [chromium](https://www.chromium.org/Home/) (web browser)
 		- [foot](https://codeberg.org/dnkl/foot) (terminal emulator)
 		- [nvim](https://neovim.io/) (text editor)
 		- [zsh](https://www.gnu.org/software/bash/) (Unix shell)
