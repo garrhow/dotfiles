@@ -1,4 +1,5 @@
 #!/bin/sh
 
-echo -n "Please select a playlist: " && read url
-yt-dlp -x --audio-format 'mp3' -o '%(playlist_index)s - %(title)s.%(ext)s' "$url"
+# musicpls - Simple music downloader using yt-dlp
+
+echo -n "Please select a playlist or upload: " && read url; yt-dlp -x --audio-format 'mp3' -o '%(playlist_index)s - %(title)s.%(ext)s' "$url"

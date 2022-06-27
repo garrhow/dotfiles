@@ -34,7 +34,8 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 		- [newsboat](https://newsboat.org/) (rss reader)
 		- [pass](https://www.passwordstore.org/) (password manager)
 - Scripts in `~/.local/bin/`
-	- audioctl - Controller for sound systems
+	- audioctl - Controller for sound systems (e.g. PipeWire, PulseAudio, sndio)
+	- musicpls - Simple audio downloader using [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
 ## Usage
 
