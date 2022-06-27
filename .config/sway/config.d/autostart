@@ -2,6 +2,9 @@
 # Autostart programs
 ##
 
+# Notification daemon
+exec mako
+
 # Polkit authentication agent
 exec lxsession
 
