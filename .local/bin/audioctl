@@ -1,8 +1,5 @@
 #!/bin/sh
 
-OPERATING_SYSTEM=
-SOUND_SYSTEM=
-
 # Check which operating system and sound system the user is running
 case $(uname -s) in
 	# Linux
@@ -30,17 +27,33 @@ case "$1" in
 		echo "Operating system: $OPERATING_SYSTEM"
 		echo "Sound system: $SOUND_SYSTEM"
 		;;
+	"get-volume-input")
+		case $SOUND_SYSTEM in
+			"pipewire"|"pulseaudio")
+				SOURCE=$(pactl list short sources | sed -e 's,^\([0-9][0-9]*\)[^0-9].*,\1,' | head -n 1)
+				pactl list sources | grep '^[[:space:]]Volume:' | head -n $(( $SOURCE + 1 )) | tail -n 1 | sed -e 's,.* \([0-9][0-9]*\)%.*,\1,'
+				;;
+		esac
+		;;
+	"get-volume-output")
+		case $SOUND_SYSTEM in
+			"pipewire"|"pulseaudio")
+				SINK=$(pactl list short sinks | sed -e 's,^\([0-9][0-9]*\)[^0-9].*,\1,' | head -n 1)
+				pactl list sinks | grep '^[[:space:]]Volume:' | head -n $(( $SINK + 1 )) | tail -n 1 | sed -e 's,.* \([0-9][0-9]*\)%.*,\1,'
+				;;
+		esac
+		;;
 	"toggle-mute-input")
 		case $SOUND_SYSTEM in
 			"pipewire"|"pulseaudio")
-					pactl set-source-mute @DEFAULT_SOURCE@ toggle
+				pactl set-source-mute @DEFAULT_SOURCE@ toggle
 				;;
 		esac
 		;;
 	"toggle-mute-output")
 		case $SOUND_SYSTEM in
 			"pipewire"|"pulseaudio")
-					pactl set-sink-mute @DEFAULT_SINK@ toggle
+				pactl set-sink-mute @DEFAULT_SINK@ toggle
 				;;
 		esac
 		;;
@@ -49,6 +62,8 @@ case "$1" in
 		echo
 		echo "Available commands:"
 		echo "  info			Provides info about the system"
+		echo "  get-volume-input	Returns the current volume of the input device"
+		echo "  get-volume-output	Returns the current volume of the output device"
 		echo "  toggle-mute-input	Toggles whether the input device is muted or not"
 		echo "  toggle-mute-output	Toggles whether the output device is muted or not"
 		;;
