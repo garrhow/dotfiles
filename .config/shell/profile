@@ -7,10 +7,11 @@ export BROWSER="chromium"
 export EDITOR="nvim"
 export TERMINAL="footclient"
 
-# XDG
+# Setting the XDG base directories
+export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
-export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_STATE_HOME="$HOME/.local/state"
 
 # Wayland — General
 export XDG_SESSION_TYPE=wayland
@@ -25,13 +26,18 @@ export QT_QPA_PLATFORM="wayland;xcb"
 export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
 export SDL_VIDEODRIVER=wayland
 
-# Other
+# Cleaning up the home directory
+export CARGO_HOME="$XDG_DATA_HOME/cargo"
+export CUDA_CACHE_PATH="$XDG_CACHE_HOME/nv"
+export ELECTRUMDIR="$XDG_DATA_HOME/electrum"
 export GNUPGHOME="$XDG_CONFIG_HOME/gnupg"
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc-2.0"
 export HISTFILE="$XDG_CONFIG_HOME/shell/history"
+export PASSWORD_STORE_DIR="$XDG_DATA_HOME/password-store"
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+
+# Other
 export HISTFILESIZE=999999
 export HISTSIZE=100000
 export LESSHSTFILE="-"
-export PASSWORD_STORE_DIR="$XDG_DATA_HOME/password-store"
 export SDL_JOYSTICK_HIDAPI=0
-export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
