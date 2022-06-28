@@ -19,4 +19,9 @@ themes:
 	cp -r .themes/icons/* ~/.local/share/icons
 	cp -r .themes/themes/* ~/.local/share/themes
 
+update:
+	rm -rf .themes/themes/nordic;
+	curl -LQR https://github.com/EliverLara/Nordic/releases/latest/download/Nordic.tar.xz -o nordic.tar.xz; tar -xvf nordic.tar.xz; mv Nordic .themes/themes/nordic; rm nordic.tar.xz
+
+
 .PHONY: deploy profile themes
