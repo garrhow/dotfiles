@@ -8,6 +8,9 @@ deploy:
 	cp -r .local/bin/* ~/.local/bin/
 	cp -r .local/share/* ~/.local/share/
 
+profile:
+	if [ ! -e ~/.zprofile ]; then ln -s .config/shell/profile ~/.zprofile; fi
+
 themes:
 	mkdir -p ~/.local/share/fonts
 	mkdir -p ~/.local/share/icons
@@ -16,4 +19,4 @@ themes:
 	cp -r .themes/icons/* ~/.local/share/icons
 	cp -r .themes/themes/* ~/.local/share/themes
 
-.PHONY: deploy themes
+.PHONY: deploy profile themes

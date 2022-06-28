@@ -40,9 +40,10 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 This repository includes a `Makefile` with commands for easing the use of these dotfiles.
 
 - `make deploy`: Deploys dotfiles to user's home directory. This **will** overwrite pre-existing dotfiles, so please back them up.
+- `make profile`: Creates a symbolic link in the home directory for the shell profile.
 - `make themes`: Deploys desktop themes and icons to the current user's home directory.
 
-## Acknowledgements
+## Notes
 
 These dotfiles were intended for use with a Unix-like operating system (Arch Linux, Gentoo, OpenBSD, etc.).
 
