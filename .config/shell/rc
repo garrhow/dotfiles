@@ -3,6 +3,9 @@
 # add .local/bin to path
 export PATH="$PATH:$HOME/.local/bin"
 
+# alias for xdg base dir
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+
 # basic shell tweaks
 setopt autocd
 stty stop undef
