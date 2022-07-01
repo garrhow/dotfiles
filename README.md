@@ -7,6 +7,7 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 		- [chromium](https://www.chromium.org/Home/) (web browser)
 		- [foot](https://codeberg.org/dnkl/foot) (terminal emulator)
 		- [nvim](https://neovim.io/) (text editor)
+		- [pass](https://www.passwordstore.org/) (password manager)
 		- [zsh](https://www.gnu.org/software/bash/) (Unix shell)
 	- desktop environment
 		- [brightnessctl](https://github.com/Hummer12007/brightnessctl) (screen brightness)
@@ -28,9 +29,8 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 		- [wl-clipboard](https://github.com/bugaevc/wl-clipboard) (clipboard utility)
 		- [xdg-desktop-portal-wlr](https://github.com/emersion/xdg-desktop-portal-wlr) (desktop integration portal)
 		- [zathura](https://pwmt.org/projects/zathura/) (document viewer)
-	- personal software
-		- [mpd](https://www.musicpd.org/)/[ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) (music daemon)
-		- [pass](https://www.passwordstore.org/) (password manager)
+	- system software
+		- [dex](https://github.com/jceb/dex) (desktop entry executer)
 - Scripts in `~/.local/bin/`
 	- audioctl - Controller for sound systems (e.g. PipeWire, PulseAudio, sndio)
 	- musicpls - Simple audio downloader using [yt-dlp](https://github.com/yt-dlp/yt-dlp)

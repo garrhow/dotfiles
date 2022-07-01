@@ -11,4 +11,7 @@ exec lxsession
 # Terminal emulator server
 exec foot --server
 
+# Programs found in the XDG autostart directories
+exec dex -a
+
 # vim: syntax=swayconfig
