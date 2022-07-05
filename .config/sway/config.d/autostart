@@ -8,9 +8,6 @@ exec mako --icon-path=$HOME/.local/share/icons/papirus
 # Polkit authentication agent
 exec lxsession
 
-# Terminal emulator server
-exec foot --server
-
 # Programs found in the XDG autostart directories
 exec dex -a
 

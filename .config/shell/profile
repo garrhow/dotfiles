@@ -5,7 +5,7 @@
 # Default programs
 export BROWSER="chromium"
 export EDITOR="nvim"
-export TERMINAL="footclient"
+export TERMINAL="foot"
 
 # Setting the XDG base directories
 export XDG_CACHE_HOME="$HOME/.cache"
