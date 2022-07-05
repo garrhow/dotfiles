@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=mpv
-GenericName=Audio Player
-Exec=mpv %f
-Terminal=false
-NoDisplay=true

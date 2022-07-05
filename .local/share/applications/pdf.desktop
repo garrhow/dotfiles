@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Zathura
-GenericName=Document Viewer
-Exec=zathura %u
-Terminal=false
-MimeType=application/pdf
-NoDisplay=true

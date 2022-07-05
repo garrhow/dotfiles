@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Neomutt
-GenericName=Mail Client
-Exec=neomutt %u
-Terminal=true
-MimeType=x-scheme-handler/mailto
-NoDisplay=true

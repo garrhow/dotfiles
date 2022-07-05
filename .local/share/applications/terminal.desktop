@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=foot
-GenericName=Terminal
-Categories=System;TerminalEmulator
-Exec=foot -e %u
-Terminal=false
-MimeType=x-scheme-handler/terminal
-NoDisplay=true

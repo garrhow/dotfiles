@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Chromium
-GenericName=Web Browser
-Exec=chromium %u
-Terminal=false
-MimeType=x-scheme-handler/http;x-scheme-handler/https
-NoDisplay=true
