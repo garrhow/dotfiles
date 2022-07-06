@@ -27,7 +27,8 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 		- [swaylock](https://github.com/swaywm/swaylock) (screen locker)
 		- [waybar](https://github.com/Alexays/Waybar) (status bar)
 		- [wl-clipboard](https://github.com/bugaevc/wl-clipboard) (clipboard utility)
-		- [xdg-desktop-portal-wlr](https://github.com/emersion/xdg-desktop-portal-wlr) (desktop integration portal)
+		- [xdg-desktop-portal-gtk](https://github.com/flatpak/xdg-desktop-portal-gtk) (desktop integration portal)
+		- [xdg-desktop-portal-wlr](https://github.com/emersion/xdg-desktop-portal-wlr) (screencasting portal)
 		- [zathura](https://pwmt.org/projects/zathura/) (document viewer)
 	- system software
 		- [dex](https://github.com/jceb/dex) (desktop entry executer)
