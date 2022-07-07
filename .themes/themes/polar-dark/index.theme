@@ -1,0 +1,6 @@
+[X-GNOME-Metatheme]
+Name=polar-dark
+Type=X-GNOME-Metatheme
+Comment=polar-dark theme, based on adw-gtk3-dark
+Encoding=UTF-8
+GtkTheme=polar-dark
