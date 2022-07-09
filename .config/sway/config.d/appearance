@@ -3,7 +3,7 @@
 ##
 
 # Font
-font pango:sans 12
+font pango:sans 10
 
 # Gaps
 gaps inner 32
@@ -13,8 +13,8 @@ exec_always {
 	gsettings set org.gnome.desktop.interface gtk-theme 'polar-dark'
 	gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 	gsettings set org.gnome.desktop.interface icon-theme 'papirus'
-	gsettings set org.gnome.desktop.interface cursor-size 16
-	gsettings set org.gnome.desktop.interface font-name 'sans 12'
+	gsettings set org.gnome.desktop.interface cursor-size 8
+	gsettings set org.gnome.desktop.interface font-name 'sans 10'
 }
 
 # Status bar
