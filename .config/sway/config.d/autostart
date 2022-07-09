@@ -5,10 +5,7 @@
 # Notification daemon
 exec mako --icon-path=$HOME/.local/share/icons/papirus
 
-# Polkit authentication agent
-exec lxsession
-
-# Programs found in the XDG autostart directories
-exec dex -a
+# Polkit agent / xsettings daemon / autostart desktop entries
+exec lxsession -s wayland -e sway
 
 # vim: syntax=swayconfig

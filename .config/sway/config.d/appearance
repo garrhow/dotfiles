@@ -2,6 +2,9 @@
 # Appearance configuration
 ##
 
+# Cursor
+seat seat0 hide_cursor 10000
+
 # Font
 font pango:sans 10
 

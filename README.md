@@ -30,8 +30,6 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 		- [xdg-desktop-portal-gtk](https://github.com/flatpak/xdg-desktop-portal-gtk) (desktop integration portal)
 		- [xdg-desktop-portal-wlr](https://github.com/emersion/xdg-desktop-portal-wlr) (screencasting portal)
 		- [zathura](https://pwmt.org/projects/zathura/) (document viewer)
-	- system software
-		- [dex](https://github.com/jceb/dex) (desktop entry executer)
 - Scripts in `~/.local/bin/`
 	- audioctl - Controller for sound systems (e.g. PipeWire, PulseAudio, sndio)
 	- musicpls - Simple audio downloader using [yt-dlp](https://github.com/yt-dlp/yt-dlp)
