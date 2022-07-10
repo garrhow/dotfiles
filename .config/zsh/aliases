@@ -1,0 +1,7 @@
+# XDG Base Directory fixes
+alias wget="wget --hsts-file=\"$XDG_DATA_HOME/wget-hsts\""
+
+# NVIDIA
+if [ -e /dev/nvidia0 ]; then
+	alias sway="sway --unsupported-gpu"
+fi

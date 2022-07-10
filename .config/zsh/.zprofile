@@ -26,6 +26,16 @@ export QT_AUTO_SCREEN_SCALE_FACTOR=1
 export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
 export SDL_VIDEODRIVER=wayland
 
+# Wayland — NVIDIA
+if [ -e /dev/nvidia0 ]; then
+	export __GL_GSYNC_ALLOWED=0
+	export __GL_VRR_ALLOWED=0
+	export __GLX_VENDOR_LIBRARY_NAME=nvidia
+	export GBM_BACKEND=nvidia-drm
+	export LIBVA_DRIVER_NAME=nvidia
+	export WLR_DRM_NO_ATOMIC=1
+fi
+
 # Cleaning up the home directory
 export CARGO_HOME="$XDG_DATA_HOME/cargo"
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv

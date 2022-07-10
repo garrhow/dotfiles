@@ -3,8 +3,8 @@
 # add .local/bin to path
 export PATH="$PATH:$HOME/.local/bin"
 
-# aliases
-alias startx="startx $XINITRC"
+# alias
+source $XDG_CONFIG_HOME/zsh/aliases
 
 # basic shell tweaks
 setopt autocd
