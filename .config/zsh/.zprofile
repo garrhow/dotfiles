@@ -34,6 +34,7 @@ if [ -e /dev/nvidia0 ]; then
 	export GBM_BACKEND=nvidia-drm
 	export LIBVA_DRIVER_NAME=nvidia
 	export WLR_DRM_NO_ATOMIC=1
+	export WLR_NO_HARDWARE_CURSORS=1
 fi
 
 # Cleaning up the home directory
