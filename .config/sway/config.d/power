@@ -2,10 +2,8 @@
 # Power configuration
 ##
 
-# Lock screen after five minutes and turn off monitor after ten minutes
+# Turn off monitor after ten minutes
 exec swayidle -w \
-	timeout 300 'swaylock -f -c 000000' \
-	timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
-	before-sleep 'swaylock -f -c 000000'
+	timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' 
 
 # vim: syntax=swayconfig

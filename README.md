@@ -11,11 +11,11 @@ These are the dotfiles I use with my favorite software. Feel free to modify or d
 		- [zsh](https://www.gnu.org/software/bash/) (Unix shell)
 	- desktop environment
 		- [brightnessctl](https://github.com/Hummer12007/brightnessctl) (screen brightness)
+		- [dunst](https://dunst-project.org/) (notification daemon)
 		- [fuzzel](https://codeberg.org/dnkl/fuzzel) (application launcher)
 		- [grim](https://wayland.emersion.fr/grim/) (screenshot utility)
 		- [imv](https://sr.ht/~exec64/imv/) (image viewer)
 		- [lxsession](https://github.com/lxde/lxsession) (Polkit authentication agent)
-		- [mako](https://wayland.emersion.fr/mako/) (notification daemon)
 		- [mpv](https://mpv.io/) (audio & video player)
 		- [noto](https://fonts.google.com/noto) (font family)
 		- [papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) (icon theme)

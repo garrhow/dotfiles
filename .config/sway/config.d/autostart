@@ -3,7 +3,7 @@
 ##
 
 # Notification daemon
-exec mako --icon-path $XDG_DATA_HOME/icons/papirus
+exec dunst
 
 # Polkit agent / xsettings daemon / autostart desktop entries
 exec lxsession -s wayland -e sway
