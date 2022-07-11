@@ -2,23 +2,29 @@
 # Appearance #
 ##############
 
+# Show notifications at the specified position on the output.
+anchor=top-center
+
 # Sets the font, in Pango format.
-font=sans-serif 12
+font=sans-serif 10
 
 # If set to 1, icons are shown in notifications.
 icons=1
 
 # Sets the margin of each edge to the size specified by the directional value.
-margin=16
+margin=8
+
+# Sets the maximum icon size.
+max-icon-size=48
 
 # Sets the padding on each side to the size specified by the directional value.
-padding=16
+padding=8
 
 # Sets the notification text alignment.
 text-alignment=left
 
 # Sets the width of notification popups.
-width=480
+width=400
 
 ###########
 # Borders #
@@ -28,7 +34,7 @@ width=480
 border-radius=8
 
 # Sets the popup border size in pixels.
-border-size=4
+border-size=0
 
 ##########
 # Colors #
@@ -36,9 +42,6 @@ border-size=4
 
 # Sets the background color.
 background-color=#3B4252ff
-
-# Sets the border color.
-border-color=#2E3440ff
 
 # Sets the popup progress indicator color.
 progress-color=over #5E81ACff
@@ -51,7 +54,10 @@ text-color=#D8DEE9ff
 ###########
 
 # Sets the default timeout in milliseconds.
-default-timeout=30000
+default-timeout=10000
+
+# Sets the maximum number of expired notifications to keep in the history buffer.
+max-history=1000
 
 # Sets the maximum number of visible notifications.
-max-visible=3
+max-visible=1
