@@ -1,7 +1,9 @@
 # XDG Base Directory fixes
 alias wget="wget --hsts-file=\"$XDG_DATA_HOME/wget-hsts\""
 
-# NVIDIA
-if [ -e /dev/nvidia0 ]; then
-	alias sway="sway --unsupported-gpu"
+# Sway aliases
+if [ ! -e /dev/nvidia0 ]; then
+	alias sway="dbus-launch --sh-syntax --exit-with-session sway"
+else
+	alias sway="dbus-launch --sh-syntax --exit-with-session sway --unsupported-gpu"
 fi

@@ -2,14 +2,14 @@
 # Sway configuration
 ##
 
+# Autostart
+include ~/.config/sway/config.d/autostart
+
 # Variables
 include ~/.config/sway/config.d/variables
 
 # Appearance
 include ~/.config/sway/config.d/appearance
-
-# Autostart
-include ~/.config/sway/config.d/autostart
 
 # Display
 include ~/.config/sway/config.d/display

@@ -2,6 +2,9 @@
 # Autostart programs
 ##
 
+# D-Bus environment variables
+exec dbus-update-activation-environment DISPLAY I3SOCK SWAYSOCK WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+
 # Notification daemon
 exec dunst
 
