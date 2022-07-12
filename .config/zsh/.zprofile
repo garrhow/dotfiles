@@ -38,6 +38,7 @@ if [ -e /dev/nvidia0 ]; then
 fi
 
 # Cleaning up the home directory
+export ANDROID_HOME="$XDG_DATA_HOME"/android
 export CARGO_HOME="$XDG_DATA_HOME/cargo"
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 export ELECTRUMDIR="$XDG_DATA_HOME/electrum"
