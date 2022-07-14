@@ -1,0 +1,4 @@
+[screencast]
+max_fps=60
+chooser_cmd=fuzzel -d -P "Select a monitor to share with the requesting application. "
+chooser_type=dmenu
