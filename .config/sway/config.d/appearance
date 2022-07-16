@@ -2,6 +2,11 @@
 # Appearance configuration
 ##
 
+# Colors (border, background, text, indicator, child_border)
+client.focused #2E3440 #3B4252 #E5E9F0 #3B4252 #3B4252
+client.unfocused #2E3440 #2E3440 #E5E9F0 #2E3440 #2E3440
+client.urgent #2E3440 #BF616A #2E3440 #BF616A #BF616A
+
 # Cursor
 seat seat0 hide_cursor 10000
 
@@ -17,7 +22,7 @@ exec_always {
 	gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 	gsettings set org.gnome.desktop.interface icon-theme 'papirus'
 	gsettings set org.gnome.desktop.interface cursor-size 8
-	gsettings set org.gnome.desktop.interface font-name 'sans 10'
+	gsettings set org.gnome.desktop.interface font-name 'sans 11'
 }
 
 # Status bar
@@ -25,11 +30,17 @@ bar {
 	swaybar_command waybar
 }
 
+# Title bars
+for_window [title="."] title_format "<b>%title</b>"
+title_align center
+titlebar_border_thickness 0
+titlebar_padding 8 8
+
 # Wallpaper
 output * bg ~/.local/share/wallpaper fill
 
 # Window borders
-default_border pixel 4
+default_border normal 4
 default_floating_border normal
 hide_edge_borders smart
 
