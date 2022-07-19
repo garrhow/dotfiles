@@ -1,3 +1,6 @@
+# Emacs in the terminal
+alias emacs="emacs -nw"
+
 # XDG Base Directory fixes
 alias wget="wget --hsts-file=\"$XDG_DATA_HOME/wget-hsts\""
 
